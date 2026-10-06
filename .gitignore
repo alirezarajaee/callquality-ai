@@ -1,0 +1,54 @@
+# Go
+bin/
+*.exe
+*.test
+*.out
+*.prof
+coverage.out
+coverage.html
+
+# Node / React / Vite
+web/node_modules/
+web/dist/
+web/.vite/
+web/.cache/
+
+# TypeScript generated
+*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temporary
+*.log
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local ML artifacts
+*.joblib

@@ -1,0 +1,701 @@
+sample_id,scenario,description,profile,seed,severity_band,recipe,capture_file
+clean-001,clean,baseline capture without added impairment,v4,7856149342266111343,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-001.pcap
+clean-002,clean,baseline capture without added impairment,v4,3451285388885548156,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-002.pcap
+clean-003,clean,baseline capture without added impairment,v4,6251911420319145731,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-003.pcap
+clean-004,clean,baseline capture without added impairment,v4,9182404991202789421,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-004.pcap
+clean-005,clean,baseline capture without added impairment,v4,6655611322149501195,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-005.pcap
+clean-006,clean,baseline capture without added impairment,v4,7451501787211125865,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-006.pcap
+clean-007,clean,baseline capture without added impairment,v4,2643099675866880232,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-007.pcap
+clean-008,clean,baseline capture without added impairment,v4,7959500586239913290,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-008.pcap
+clean-009,clean,baseline capture without added impairment,v4,2139259600757002118,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-009.pcap
+clean-010,clean,baseline capture without added impairment,v4,4899283934236080844,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-010.pcap
+clean-011,clean,baseline capture without added impairment,v4,4427007605787455428,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-011.pcap
+clean-012,clean,baseline capture without added impairment,v4,6569646375435072369,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-012.pcap
+clean-013,clean,baseline capture without added impairment,v4,1424835839433263046,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-013.pcap
+clean-014,clean,baseline capture without added impairment,v4,8137526381644574961,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-014.pcap
+clean-015,clean,baseline capture without added impairment,v4,2489003364404061291,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-015.pcap
+clean-016,clean,baseline capture without added impairment,v4,2835662100490164402,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-016.pcap
+clean-017,clean,baseline capture without added impairment,v4,5184207005704192835,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-017.pcap
+clean-018,clean,baseline capture without added impairment,v4,2299293956896657295,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-018.pcap
+clean-019,clean,baseline capture without added impairment,v4,7362415976534403869,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-019.pcap
+clean-020,clean,baseline capture without added impairment,v4,585709553140577682,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-020.pcap
+clean-021,clean,baseline capture without added impairment,v4,1531380291314961501,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-021.pcap
+clean-022,clean,baseline capture without added impairment,v4,7843895637862488169,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-022.pcap
+clean-023,clean,baseline capture without added impairment,v4,6965738760373125045,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-023.pcap
+clean-024,clean,baseline capture without added impairment,v4,3793349377932828325,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-024.pcap
+clean-025,clean,baseline capture without added impairment,v4,2573635190240625520,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-025.pcap
+clean-026,clean,baseline capture without added impairment,v4,4006026103697906843,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-026.pcap
+clean-027,clean,baseline capture without added impairment,v4,7644887429152175583,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-027.pcap
+clean-028,clean,baseline capture without added impairment,v4,4766777018481025488,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-028.pcap
+clean-029,clean,baseline capture without added impairment,v4,823737097749742133,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-029.pcap
+clean-030,clean,baseline capture without added impairment,v4,5442078407399633560,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-030.pcap
+clean-031,clean,baseline capture without added impairment,v4,3156718109954251640,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-031.pcap
+clean-032,clean,baseline capture without added impairment,v4,4494594678729696758,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-032.pcap
+clean-033,clean,baseline capture without added impairment,v4,7027885383388563694,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-033.pcap
+clean-034,clean,baseline capture without added impairment,v4,1222743928762568188,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-034.pcap
+clean-035,clean,baseline capture without added impairment,v4,2704540736993947438,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-035.pcap
+clean-036,clean,baseline capture without added impairment,v4,4833552713350526973,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-036.pcap
+clean-037,clean,baseline capture without added impairment,v4,4291135543135411305,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-037.pcap
+clean-038,clean,baseline capture without added impairment,v4,3255806065229728287,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-038.pcap
+clean-039,clean,baseline capture without added impairment,v4,7721782322331467484,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-039.pcap
+clean-040,clean,baseline capture without added impairment,v4,7794409094299378023,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-040.pcap
+clean-041,clean,baseline capture without added impairment,v4,5441947999191579626,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-041.pcap
+clean-042,clean,baseline capture without added impairment,v4,4371852848158150739,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-042.pcap
+clean-043,clean,baseline capture without added impairment,v4,2098400392138314919,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-043.pcap
+clean-044,clean,baseline capture without added impairment,v4,8267934608398123550,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-044.pcap
+clean-045,clean,baseline capture without added impairment,v4,2835748134242587339,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-045.pcap
+clean-046,clean,baseline capture without added impairment,v4,8527355449190203906,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-046.pcap
+clean-047,clean,baseline capture without added impairment,v4,6865722635385213360,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-047.pcap
+clean-048,clean,baseline capture without added impairment,v4,8258828718127963976,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-048.pcap
+clean-049,clean,baseline capture without added impairment,v4,3135627937446664568,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-049.pcap
+clean-050,clean,baseline capture without added impairment,v4,3983128703783389629,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-050.pcap
+clean-051,clean,baseline capture without added impairment,v4,7980681114567051911,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-051.pcap
+clean-052,clean,baseline capture without added impairment,v4,6275256023338600414,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-052.pcap
+clean-053,clean,baseline capture without added impairment,v4,3160649301871917602,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-053.pcap
+clean-054,clean,baseline capture without added impairment,v4,7371434373805152389,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-054.pcap
+clean-055,clean,baseline capture without added impairment,v4,7170276201108686716,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-055.pcap
+clean-056,clean,baseline capture without added impairment,v4,8577384040051479674,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-056.pcap
+clean-057,clean,baseline capture without added impairment,v4,5156798233314746131,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-057.pcap
+clean-058,clean,baseline capture without added impairment,v4,6710641326143436969,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-058.pcap
+clean-059,clean,baseline capture without added impairment,v4,2337351609697588825,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-059.pcap
+clean-060,clean,baseline capture without added impairment,v4,671097452113793636,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-060.pcap
+clean-061,clean,baseline capture without added impairment,v4,2403751715603519328,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-061.pcap
+clean-062,clean,baseline capture without added impairment,v4,5251008262665054278,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-062.pcap
+clean-063,clean,baseline capture without added impairment,v4,3655579023778470171,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-063.pcap
+clean-064,clean,baseline capture without added impairment,v4,6625680536552683239,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-064.pcap
+clean-065,clean,baseline capture without added impairment,v4,4726528275017871933,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-065.pcap
+clean-066,clean,baseline capture without added impairment,v4,9022026647367050280,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-066.pcap
+clean-067,clean,baseline capture without added impairment,v4,6667584033869570112,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-067.pcap
+clean-068,clean,baseline capture without added impairment,v4,3415842918011190408,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-068.pcap
+clean-069,clean,baseline capture without added impairment,v4,1706589013313255917,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-069.pcap
+clean-070,clean,baseline capture without added impairment,v4,6835149339694337339,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-070.pcap
+clean-071,clean,baseline capture without added impairment,v4,5321149553484484639,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-071.pcap
+clean-072,clean,baseline capture without added impairment,v4,8909228549313667692,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-072.pcap
+clean-073,clean,baseline capture without added impairment,v4,4939266040818474465,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-073.pcap
+clean-074,clean,baseline capture without added impairment,v4,5048383301519654374,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-074.pcap
+clean-075,clean,baseline capture without added impairment,v4,2677861736849839244,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-075.pcap
+clean-076,clean,baseline capture without added impairment,v4,7963700644794458441,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-076.pcap
+clean-077,clean,baseline capture without added impairment,v4,1356914276406548451,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-077.pcap
+clean-078,clean,baseline capture without added impairment,v4,1054958508621650545,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-078.pcap
+clean-079,clean,baseline capture without added impairment,v4,2841056895592122104,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-079.pcap
+clean-080,clean,baseline capture without added impairment,v4,832312066663098108,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-080.pcap
+clean-081,clean,baseline capture without added impairment,v4,435805339969069242,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-081.pcap
+clean-082,clean,baseline capture without added impairment,v4,7903840672957000944,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-082.pcap
+clean-083,clean,baseline capture without added impairment,v4,6435804025738105740,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-083.pcap
+clean-084,clean,baseline capture without added impairment,v4,6785071500784998655,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-084.pcap
+clean-085,clean,baseline capture without added impairment,v4,8886531948843164038,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-085.pcap
+clean-086,clean,baseline capture without added impairment,v4,2254557773604354513,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-086.pcap
+clean-087,clean,baseline capture without added impairment,v4,242662928429318871,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-087.pcap
+clean-088,clean,baseline capture without added impairment,v4,1036535868960269729,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-088.pcap
+clean-089,clean,baseline capture without added impairment,v4,7026645773352736120,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-089.pcap
+clean-090,clean,baseline capture without added impairment,v4,2591127608334770266,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-090.pcap
+clean-091,clean,baseline capture without added impairment,v4,1898510844354644281,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-091.pcap
+clean-092,clean,baseline capture without added impairment,v4,4488448070698227604,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-092.pcap
+clean-093,clean,baseline capture without added impairment,v4,5055350564713152821,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-093.pcap
+clean-094,clean,baseline capture without added impairment,v4,2120186597028987705,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-094.pcap
+clean-095,clean,baseline capture without added impairment,v4,3789386126405605282,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-095.pcap
+clean-096,clean,baseline capture without added impairment,v4,5508490838122756686,mild,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-096.pcap
+clean-097,clean,baseline capture without added impairment,v4,4973896483523314828,moderate,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-097.pcap
+clean-098,clean,baseline capture without added impairment,v4,5421390905152152236,degraded,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-098.pcap
+clean-099,clean,baseline capture without added impairment,v4,6362948089141565410,severe,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-099.pcap
+clean-100,clean,baseline capture without added impairment,v4,5743151707320130851,extreme,primary=clean;secondary=none;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,clean-100.pcap
+loss-001,loss,controlled RTP packet loss,v4,4116673027194866867,mild,primary=loss;secondary=reorder;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-001.pcap
+loss-002,loss,controlled RTP packet loss,v4,5888741822636663342,moderate,primary=loss;secondary=reorder;loss=3;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-002.pcap
+loss-003,loss,controlled RTP packet loss,v4,7381621239560084913,degraded,primary=loss;secondary=reorder;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-003.pcap
+loss-004,loss,controlled RTP packet loss,v4,2695965314317273979,severe,primary=loss;secondary=jitter;loss=12;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-004.pcap
+loss-005,loss,controlled RTP packet loss,v4,6677931058031733084,extreme,primary=loss;secondary=jitter;loss=16;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-005.pcap
+loss-006,loss,controlled RTP packet loss,v4,5078423969283787139,mild,primary=loss;secondary=latency;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-006.pcap
+loss-007,loss,controlled RTP packet loss,v4,9019581765900849638,moderate,primary=loss;secondary=latency;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-007.pcap
+loss-008,loss,controlled RTP packet loss,v4,442980482237535475,degraded,primary=loss;secondary=latency;loss=6;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-008.pcap
+loss-009,loss,controlled RTP packet loss,v4,9060547242601930632,severe,primary=loss;secondary=duplicate;loss=12;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-009.pcap
+loss-010,loss,controlled RTP packet loss,v4,322758202489032055,extreme,primary=loss;secondary=latency;loss=19;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-010.pcap
+loss-011,loss,controlled RTP packet loss,v4,4492071867771872253,mild,primary=loss;secondary=reorder;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-011.pcap
+loss-012,loss,controlled RTP packet loss,v4,2815338555682966490,moderate,primary=loss;secondary=duplicate;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-012.pcap
+loss-013,loss,controlled RTP packet loss,v4,9218127646781775203,degraded,primary=loss;secondary=duplicate;loss=6;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-013.pcap
+loss-014,loss,controlled RTP packet loss,v4,2628812583893019050,severe,primary=loss;secondary=reorder;loss=14;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-014.pcap
+loss-015,loss,controlled RTP packet loss,v4,5933574454320393623,extreme,primary=loss;secondary=jitter;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-015.pcap
+loss-016,loss,controlled RTP packet loss,v4,8160012058309549250,mild,primary=loss;secondary=duplicate;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-016.pcap
+loss-017,loss,controlled RTP packet loss,v4,4140068426252494962,moderate,primary=loss;secondary=latency;loss=3;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-017.pcap
+loss-018,loss,controlled RTP packet loss,v4,6624614254999415366,degraded,primary=loss;secondary=reorder;loss=6;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-018.pcap
+loss-019,loss,controlled RTP packet loss,v4,1046729068192608108,severe,primary=loss;secondary=latency;loss=11;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-019.pcap
+loss-020,loss,controlled RTP packet loss,v4,2301373213910152649,extreme,primary=loss;secondary=duplicate;loss=20;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-020.pcap
+loss-021,loss,controlled RTP packet loss,v4,3709947465361283455,mild,primary=loss;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-021.pcap
+loss-022,loss,controlled RTP packet loss,v4,8948890506915491176,moderate,primary=loss;secondary=reorder;loss=4;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-022.pcap
+loss-023,loss,controlled RTP packet loss,v4,237699084236361849,degraded,primary=loss;secondary=latency;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-023.pcap
+loss-024,loss,controlled RTP packet loss,v4,6870230601308832464,severe,primary=loss;secondary=duplicate;loss=13;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-024.pcap
+loss-025,loss,controlled RTP packet loss,v4,5699015106580392220,extreme,primary=loss;secondary=duplicate;loss=20;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-025.pcap
+loss-026,loss,controlled RTP packet loss,v4,5310549971440589278,mild,primary=loss;secondary=reorder;loss=1;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-026.pcap
+loss-027,loss,controlled RTP packet loss,v4,5023903716882672958,moderate,primary=loss;secondary=jitter;loss=5;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-027.pcap
+loss-028,loss,controlled RTP packet loss,v4,855174496834619951,degraded,primary=loss;secondary=jitter;loss=8;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-028.pcap
+loss-029,loss,controlled RTP packet loss,v4,5828001353442074697,severe,primary=loss;secondary=jitter;loss=10;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-029.pcap
+loss-030,loss,controlled RTP packet loss,v4,560489076967446749,extreme,primary=loss;secondary=reorder;loss=19;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-030.pcap
+loss-031,loss,controlled RTP packet loss,v4,4727039252330303877,mild,primary=loss;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-031.pcap
+loss-032,loss,controlled RTP packet loss,v4,6605020106380219327,moderate,primary=loss;secondary=latency;loss=4;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-032.pcap
+loss-033,loss,controlled RTP packet loss,v4,4156642884158470119,degraded,primary=loss;secondary=jitter;loss=8;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-033.pcap
+loss-034,loss,controlled RTP packet loss,v4,4687780324821837558,severe,primary=loss;secondary=duplicate;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-034.pcap
+loss-035,loss,controlled RTP packet loss,v4,5826962352576128191,extreme,primary=loss;secondary=jitter;loss=17;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-035.pcap
+loss-036,loss,controlled RTP packet loss,v4,5226891967247323142,mild,primary=loss;secondary=jitter;loss=1;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-036.pcap
+loss-037,loss,controlled RTP packet loss,v4,7350837211905615220,moderate,primary=loss;secondary=latency;loss=3;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-037.pcap
+loss-038,loss,controlled RTP packet loss,v4,7355856399666215081,degraded,primary=loss;secondary=reorder;loss=5;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-038.pcap
+loss-039,loss,controlled RTP packet loss,v4,8558285063619174038,severe,primary=loss;secondary=latency;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-039.pcap
+loss-040,loss,controlled RTP packet loss,v4,5414960319807421381,extreme,primary=loss;secondary=duplicate;loss=14;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-040.pcap
+loss-041,loss,controlled RTP packet loss,v4,6223344717076309034,mild,primary=loss;secondary=reorder;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-041.pcap
+loss-042,loss,controlled RTP packet loss,v4,2589825528965312907,moderate,primary=loss;secondary=reorder;loss=3;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-042.pcap
+loss-043,loss,controlled RTP packet loss,v4,5589154388974625069,degraded,primary=loss;secondary=latency;loss=5;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-043.pcap
+loss-044,loss,controlled RTP packet loss,v4,2526322450517879034,severe,primary=loss;secondary=duplicate;loss=11;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-044.pcap
+loss-045,loss,controlled RTP packet loss,v4,3822519196442253126,extreme,primary=loss;secondary=jitter;loss=19;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-045.pcap
+loss-046,loss,controlled RTP packet loss,v4,1358841354203133331,mild,primary=loss;secondary=latency;loss=1;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-046.pcap
+loss-047,loss,controlled RTP packet loss,v4,293514079988485116,moderate,primary=loss;secondary=jitter;loss=4;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-047.pcap
+loss-048,loss,controlled RTP packet loss,v4,241097152709370026,degraded,primary=loss;secondary=latency;loss=7;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-048.pcap
+loss-049,loss,controlled RTP packet loss,v4,6125378165593487618,severe,primary=loss;secondary=duplicate;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-049.pcap
+loss-050,loss,controlled RTP packet loss,v4,6556183992819942166,extreme,primary=loss;secondary=reorder;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-050.pcap
+loss-051,loss,controlled RTP packet loss,v4,4997374721384405564,mild,primary=loss;secondary=jitter;loss=1;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-051.pcap
+loss-052,loss,controlled RTP packet loss,v4,458554683849635078,moderate,primary=loss;secondary=duplicate;loss=5;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-052.pcap
+loss-053,loss,controlled RTP packet loss,v4,2547804119000715306,degraded,primary=loss;secondary=jitter;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-053.pcap
+loss-054,loss,controlled RTP packet loss,v4,6710999777565442064,severe,primary=loss;secondary=duplicate;loss=10;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-054.pcap
+loss-055,loss,controlled RTP packet loss,v4,6499160459919412914,extreme,primary=loss;secondary=reorder;loss=17;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-055.pcap
+loss-056,loss,controlled RTP packet loss,v4,1544112021672358603,mild,primary=loss;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-056.pcap
+loss-057,loss,controlled RTP packet loss,v4,6687686163205660365,moderate,primary=loss;secondary=duplicate;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-057.pcap
+loss-058,loss,controlled RTP packet loss,v4,4882901865802032725,degraded,primary=loss;secondary=jitter;loss=8;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-058.pcap
+loss-059,loss,controlled RTP packet loss,v4,7767835587675633181,severe,primary=loss;secondary=latency;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-059.pcap
+loss-060,loss,controlled RTP packet loss,v4,8355935563852342641,extreme,primary=loss;secondary=latency;loss=19;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-060.pcap
+loss-061,loss,controlled RTP packet loss,v4,6318582419218645518,mild,primary=loss;secondary=jitter;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-061.pcap
+loss-062,loss,controlled RTP packet loss,v4,582308647600148688,moderate,primary=loss;secondary=reorder;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-062.pcap
+loss-063,loss,controlled RTP packet loss,v4,2196197119164429003,degraded,primary=loss;secondary=duplicate;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-063.pcap
+loss-064,loss,controlled RTP packet loss,v4,3668388040389409716,severe,primary=loss;secondary=latency;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-064.pcap
+loss-065,loss,controlled RTP packet loss,v4,5493856741969676042,extreme,primary=loss;secondary=reorder;loss=16;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-065.pcap
+loss-066,loss,controlled RTP packet loss,v4,3438573299600453410,mild,primary=loss;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-066.pcap
+loss-067,loss,controlled RTP packet loss,v4,4265070180067091054,moderate,primary=loss;secondary=latency;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-067.pcap
+loss-068,loss,controlled RTP packet loss,v4,539317895272793799,degraded,primary=loss;secondary=latency;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-068.pcap
+loss-069,loss,controlled RTP packet loss,v4,8429774602270622193,severe,primary=loss;secondary=jitter;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-069.pcap
+loss-070,loss,controlled RTP packet loss,v4,89143855813470827,extreme,primary=loss;secondary=latency;loss=14;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-070.pcap
+loss-071,loss,controlled RTP packet loss,v4,7806917235391708217,mild,primary=loss;secondary=jitter;loss=1;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-071.pcap
+loss-072,loss,controlled RTP packet loss,v4,6264631594740045433,moderate,primary=loss;secondary=reorder;loss=4;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-072.pcap
+loss-073,loss,controlled RTP packet loss,v4,1092539470541308120,degraded,primary=loss;secondary=duplicate;loss=8;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-073.pcap
+loss-074,loss,controlled RTP packet loss,v4,3595392269780981627,severe,primary=loss;secondary=latency;loss=14;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-074.pcap
+loss-075,loss,controlled RTP packet loss,v4,3536540351745438205,extreme,primary=loss;secondary=reorder;loss=16;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-075.pcap
+loss-076,loss,controlled RTP packet loss,v4,8975040419652196682,mild,primary=loss;secondary=reorder;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-076.pcap
+loss-077,loss,controlled RTP packet loss,v4,7995271018049990788,moderate,primary=loss;secondary=latency;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-077.pcap
+loss-078,loss,controlled RTP packet loss,v4,3390538323528808744,degraded,primary=loss;secondary=latency;loss=7;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-078.pcap
+loss-079,loss,controlled RTP packet loss,v4,3434414443389469186,severe,primary=loss;secondary=jitter;loss=10;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-079.pcap
+loss-080,loss,controlled RTP packet loss,v4,1690283094229339259,extreme,primary=loss;secondary=latency;loss=16;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-080.pcap
+loss-081,loss,controlled RTP packet loss,v4,5953996525923566957,mild,primary=loss;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-081.pcap
+loss-082,loss,controlled RTP packet loss,v4,7445496741037915548,moderate,primary=loss;secondary=duplicate;loss=4;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-082.pcap
+loss-083,loss,controlled RTP packet loss,v4,4096243639729236333,degraded,primary=loss;secondary=duplicate;loss=7;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-083.pcap
+loss-084,loss,controlled RTP packet loss,v4,8902429954404174792,severe,primary=loss;secondary=duplicate;loss=14;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-084.pcap
+loss-085,loss,controlled RTP packet loss,v4,5220424535174034148,extreme,primary=loss;secondary=reorder;loss=17;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-085.pcap
+loss-086,loss,controlled RTP packet loss,v4,7029093376032545432,mild,primary=loss;secondary=reorder;loss=1;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-086.pcap
+loss-087,loss,controlled RTP packet loss,v4,1989851386744044174,moderate,primary=loss;secondary=reorder;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-087.pcap
+loss-088,loss,controlled RTP packet loss,v4,8336654419171152120,degraded,primary=loss;secondary=reorder;loss=7;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-088.pcap
+loss-089,loss,controlled RTP packet loss,v4,6719442273244362342,severe,primary=loss;secondary=jitter;loss=10;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-089.pcap
+loss-090,loss,controlled RTP packet loss,v4,3028888586240874725,extreme,primary=loss;secondary=reorder;loss=18;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-090.pcap
+loss-091,loss,controlled RTP packet loss,v4,7895837619309558139,mild,primary=loss;secondary=jitter;loss=2;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-091.pcap
+loss-092,loss,controlled RTP packet loss,v4,1888227516999815072,moderate,primary=loss;secondary=latency;loss=5;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-092.pcap
+loss-093,loss,controlled RTP packet loss,v4,5140169635231007988,degraded,primary=loss;secondary=duplicate;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-093.pcap
+loss-094,loss,controlled RTP packet loss,v4,4932674982619734867,severe,primary=loss;secondary=jitter;loss=14;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-094.pcap
+loss-095,loss,controlled RTP packet loss,v4,7831522391444880811,extreme,primary=loss;secondary=jitter;loss=15;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-095.pcap
+loss-096,loss,controlled RTP packet loss,v4,2792860586204530613,mild,primary=loss;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-096.pcap
+loss-097,loss,controlled RTP packet loss,v4,8930078090759005870,moderate,primary=loss;secondary=reorder;loss=4;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-097.pcap
+loss-098,loss,controlled RTP packet loss,v4,4830675927821654617,degraded,primary=loss;secondary=reorder;loss=9;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-098.pcap
+loss-099,loss,controlled RTP packet loss,v4,5943978982438753776,severe,primary=loss;secondary=duplicate;loss=12;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-099.pcap
+loss-100,loss,controlled RTP packet loss,v4,2013792012852735127,extreme,primary=loss;secondary=duplicate;loss=18;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,loss-100.pcap
+jitter-001,jitter,controlled RTP inter-arrival jitter,v4,6204018076589936570,mild,primary=jitter;secondary=reorder;loss=0;jitter_ms=5;latency_ms=0;reorder=0;duplicate=0,jitter-001.pcap
+jitter-002,jitter,controlled RTP inter-arrival jitter,v4,8203908988713270003,moderate,primary=jitter;secondary=duplicate;loss=0;jitter_ms=15;latency_ms=0;reorder=0;duplicate=0,jitter-002.pcap
+jitter-003,jitter,controlled RTP inter-arrival jitter,v4,1265980518052303358,degraded,primary=jitter;secondary=duplicate;loss=0;jitter_ms=24;latency_ms=0;reorder=0;duplicate=0,jitter-003.pcap
+jitter-004,jitter,controlled RTP inter-arrival jitter,v4,3220489861480284570,severe,primary=jitter;secondary=latency;loss=0;jitter_ms=35;latency_ms=0;reorder=0;duplicate=0,jitter-004.pcap
+jitter-005,jitter,controlled RTP inter-arrival jitter,v4,8394028853939850134,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=59;latency_ms=0;reorder=0;duplicate=0,jitter-005.pcap
+jitter-006,jitter,controlled RTP inter-arrival jitter,v4,7032462117057764931,mild,primary=jitter;secondary=loss;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-006.pcap
+jitter-007,jitter,controlled RTP inter-arrival jitter,v4,5591871906091686926,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=11;latency_ms=0;reorder=0;duplicate=0,jitter-007.pcap
+jitter-008,jitter,controlled RTP inter-arrival jitter,v4,8127810290263872601,degraded,primary=jitter;secondary=duplicate;loss=0;jitter_ms=24;latency_ms=0;reorder=0;duplicate=0,jitter-008.pcap
+jitter-009,jitter,controlled RTP inter-arrival jitter,v4,8291718000182076119,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=51;latency_ms=0;reorder=0;duplicate=0,jitter-009.pcap
+jitter-010,jitter,controlled RTP inter-arrival jitter,v4,8695327398836326123,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=57;latency_ms=0;reorder=0;duplicate=0,jitter-010.pcap
+jitter-011,jitter,controlled RTP inter-arrival jitter,v4,5510557793271973219,mild,primary=jitter;secondary=reorder;loss=0;jitter_ms=4;latency_ms=0;reorder=0;duplicate=0,jitter-011.pcap
+jitter-012,jitter,controlled RTP inter-arrival jitter,v4,3941517707630036131,moderate,primary=jitter;secondary=duplicate;loss=0;jitter_ms=14;latency_ms=0;reorder=0;duplicate=0,jitter-012.pcap
+jitter-013,jitter,controlled RTP inter-arrival jitter,v4,8465618605549120734,degraded,primary=jitter;secondary=reorder;loss=0;jitter_ms=28;latency_ms=0;reorder=0;duplicate=0,jitter-013.pcap
+jitter-014,jitter,controlled RTP inter-arrival jitter,v4,7052372537758827498,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=51;latency_ms=0;reorder=0;duplicate=0,jitter-014.pcap
+jitter-015,jitter,controlled RTP inter-arrival jitter,v4,5560240499903112869,extreme,primary=jitter;secondary=latency;loss=0;jitter_ms=52;latency_ms=0;reorder=0;duplicate=0,jitter-015.pcap
+jitter-016,jitter,controlled RTP inter-arrival jitter,v4,6740147676660786349,mild,primary=jitter;secondary=latency;loss=0;jitter_ms=4;latency_ms=0;reorder=0;duplicate=0,jitter-016.pcap
+jitter-017,jitter,controlled RTP inter-arrival jitter,v4,3388858329432623043,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=16;latency_ms=0;reorder=0;duplicate=0,jitter-017.pcap
+jitter-018,jitter,controlled RTP inter-arrival jitter,v4,5797528575761428723,degraded,primary=jitter;secondary=loss;loss=0;jitter_ms=26;latency_ms=0;reorder=0;duplicate=0,jitter-018.pcap
+jitter-019,jitter,controlled RTP inter-arrival jitter,v4,7469157906914639543,severe,primary=jitter;secondary=duplicate;loss=0;jitter_ms=42;latency_ms=0;reorder=0;duplicate=0,jitter-019.pcap
+jitter-020,jitter,controlled RTP inter-arrival jitter,v4,442507892693660376,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=69;latency_ms=0;reorder=0;duplicate=0,jitter-020.pcap
+jitter-021,jitter,controlled RTP inter-arrival jitter,v4,1068332759412161613,mild,primary=jitter;secondary=latency;loss=0;jitter_ms=4;latency_ms=0;reorder=0;duplicate=0,jitter-021.pcap
+jitter-022,jitter,controlled RTP inter-arrival jitter,v4,7525266145958551779,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=16;latency_ms=0;reorder=0;duplicate=0,jitter-022.pcap
+jitter-023,jitter,controlled RTP inter-arrival jitter,v4,6259390346501740993,degraded,primary=jitter;secondary=duplicate;loss=0;jitter_ms=22;latency_ms=0;reorder=0;duplicate=0,jitter-023.pcap
+jitter-024,jitter,controlled RTP inter-arrival jitter,v4,4218585566269134588,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=30;latency_ms=0;reorder=0;duplicate=0,jitter-024.pcap
+jitter-025,jitter,controlled RTP inter-arrival jitter,v4,4662093876322759084,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=64;latency_ms=0;reorder=0;duplicate=0,jitter-025.pcap
+jitter-026,jitter,controlled RTP inter-arrival jitter,v4,6546027150679953159,mild,primary=jitter;secondary=duplicate;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-026.pcap
+jitter-027,jitter,controlled RTP inter-arrival jitter,v4,7019453720873647065,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=15;latency_ms=0;reorder=0;duplicate=0,jitter-027.pcap
+jitter-028,jitter,controlled RTP inter-arrival jitter,v4,3281377357026981217,degraded,primary=jitter;secondary=latency;loss=0;jitter_ms=29;latency_ms=0;reorder=0;duplicate=0,jitter-028.pcap
+jitter-029,jitter,controlled RTP inter-arrival jitter,v4,2573251457096571270,severe,primary=jitter;secondary=latency;loss=0;jitter_ms=33;latency_ms=0;reorder=0;duplicate=0,jitter-029.pcap
+jitter-030,jitter,controlled RTP inter-arrival jitter,v4,807073017362847350,extreme,primary=jitter;secondary=latency;loss=0;jitter_ms=71;latency_ms=0;reorder=0;duplicate=0,jitter-030.pcap
+jitter-031,jitter,controlled RTP inter-arrival jitter,v4,8271812222431808632,mild,primary=jitter;secondary=reorder;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-031.pcap
+jitter-032,jitter,controlled RTP inter-arrival jitter,v4,6588381642932759400,moderate,primary=jitter;secondary=reorder;loss=0;jitter_ms=16;latency_ms=0;reorder=0;duplicate=0,jitter-032.pcap
+jitter-033,jitter,controlled RTP inter-arrival jitter,v4,9041016194063222592,degraded,primary=jitter;secondary=loss;loss=0;jitter_ms=30;latency_ms=0;reorder=0;duplicate=0,jitter-033.pcap
+jitter-034,jitter,controlled RTP inter-arrival jitter,v4,8593103797440293181,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=49;latency_ms=0;reorder=0;duplicate=0,jitter-034.pcap
+jitter-035,jitter,controlled RTP inter-arrival jitter,v4,2493055843937682617,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=50;latency_ms=0;reorder=0;duplicate=0,jitter-035.pcap
+jitter-036,jitter,controlled RTP inter-arrival jitter,v4,7825871705872999055,mild,primary=jitter;secondary=loss;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-036.pcap
+jitter-037,jitter,controlled RTP inter-arrival jitter,v4,852127748745178559,moderate,primary=jitter;secondary=duplicate;loss=0;jitter_ms=14;latency_ms=0;reorder=0;duplicate=0,jitter-037.pcap
+jitter-038,jitter,controlled RTP inter-arrival jitter,v4,6534327175408919120,degraded,primary=jitter;secondary=latency;loss=0;jitter_ms=26;latency_ms=0;reorder=0;duplicate=0,jitter-038.pcap
+jitter-039,jitter,controlled RTP inter-arrival jitter,v4,545607401757363336,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=50;latency_ms=0;reorder=0;duplicate=0,jitter-039.pcap
+jitter-040,jitter,controlled RTP inter-arrival jitter,v4,3082131421794149641,extreme,primary=jitter;secondary=duplicate;loss=0;jitter_ms=66;latency_ms=0;reorder=0;duplicate=0,jitter-040.pcap
+jitter-041,jitter,controlled RTP inter-arrival jitter,v4,832334322403883106,mild,primary=jitter;secondary=reorder;loss=0;jitter_ms=7;latency_ms=0;reorder=0;duplicate=0,jitter-041.pcap
+jitter-042,jitter,controlled RTP inter-arrival jitter,v4,626260768275554195,moderate,primary=jitter;secondary=reorder;loss=0;jitter_ms=10;latency_ms=0;reorder=0;duplicate=0,jitter-042.pcap
+jitter-043,jitter,controlled RTP inter-arrival jitter,v4,4732588052347860938,degraded,primary=jitter;secondary=loss;loss=0;jitter_ms=25;latency_ms=0;reorder=0;duplicate=0,jitter-043.pcap
+jitter-044,jitter,controlled RTP inter-arrival jitter,v4,8397741926013143195,severe,primary=jitter;secondary=latency;loss=0;jitter_ms=37;latency_ms=0;reorder=0;duplicate=0,jitter-044.pcap
+jitter-045,jitter,controlled RTP inter-arrival jitter,v4,7403139418303238895,extreme,primary=jitter;secondary=loss;loss=0;jitter_ms=58;latency_ms=0;reorder=0;duplicate=0,jitter-045.pcap
+jitter-046,jitter,controlled RTP inter-arrival jitter,v4,2796976257586780401,mild,primary=jitter;secondary=duplicate;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-046.pcap
+jitter-047,jitter,controlled RTP inter-arrival jitter,v4,3174119633777506396,moderate,primary=jitter;secondary=loss;loss=0;jitter_ms=17;latency_ms=0;reorder=0;duplicate=0,jitter-047.pcap
+jitter-048,jitter,controlled RTP inter-arrival jitter,v4,7685020598290773239,degraded,primary=jitter;secondary=latency;loss=0;jitter_ms=20;latency_ms=0;reorder=0;duplicate=0,jitter-048.pcap
+jitter-049,jitter,controlled RTP inter-arrival jitter,v4,2696019676253381213,severe,primary=jitter;secondary=duplicate;loss=0;jitter_ms=30;latency_ms=0;reorder=0;duplicate=0,jitter-049.pcap
+jitter-050,jitter,controlled RTP inter-arrival jitter,v4,31307124327319552,extreme,primary=jitter;secondary=loss;loss=0;jitter_ms=51;latency_ms=0;reorder=0;duplicate=0,jitter-050.pcap
+jitter-051,jitter,controlled RTP inter-arrival jitter,v4,7685698068308791953,mild,primary=jitter;secondary=reorder;loss=0;jitter_ms=4;latency_ms=0;reorder=0;duplicate=0,jitter-051.pcap
+jitter-052,jitter,controlled RTP inter-arrival jitter,v4,3386744993668973854,moderate,primary=jitter;secondary=reorder;loss=0;jitter_ms=16;latency_ms=0;reorder=0;duplicate=0,jitter-052.pcap
+jitter-053,jitter,controlled RTP inter-arrival jitter,v4,1940545484923280538,degraded,primary=jitter;secondary=reorder;loss=0;jitter_ms=26;latency_ms=0;reorder=0;duplicate=0,jitter-053.pcap
+jitter-054,jitter,controlled RTP inter-arrival jitter,v4,5591447901768312516,severe,primary=jitter;secondary=loss;loss=0;jitter_ms=42;latency_ms=0;reorder=0;duplicate=0,jitter-054.pcap
+jitter-055,jitter,controlled RTP inter-arrival jitter,v4,4951628487677028131,extreme,primary=jitter;secondary=loss;loss=0;jitter_ms=51;latency_ms=0;reorder=0;duplicate=0,jitter-055.pcap
+jitter-056,jitter,controlled RTP inter-arrival jitter,v4,934835984527314519,mild,primary=jitter;secondary=duplicate;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-056.pcap
+jitter-057,jitter,controlled RTP inter-arrival jitter,v4,197888125956356325,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=15;latency_ms=0;reorder=0;duplicate=0,jitter-057.pcap
+jitter-058,jitter,controlled RTP inter-arrival jitter,v4,2236386854793938561,degraded,primary=jitter;secondary=loss;loss=0;jitter_ms=23;latency_ms=0;reorder=0;duplicate=0,jitter-058.pcap
+jitter-059,jitter,controlled RTP inter-arrival jitter,v4,1946293045211642262,severe,primary=jitter;secondary=latency;loss=0;jitter_ms=31;latency_ms=0;reorder=0;duplicate=0,jitter-059.pcap
+jitter-060,jitter,controlled RTP inter-arrival jitter,v4,8788926833680265679,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=59;latency_ms=0;reorder=0;duplicate=0,jitter-060.pcap
+jitter-061,jitter,controlled RTP inter-arrival jitter,v4,5613662704589493346,mild,primary=jitter;secondary=duplicate;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-061.pcap
+jitter-062,jitter,controlled RTP inter-arrival jitter,v4,9143257004761208976,moderate,primary=jitter;secondary=loss;loss=0;jitter_ms=9;latency_ms=0;reorder=0;duplicate=0,jitter-062.pcap
+jitter-063,jitter,controlled RTP inter-arrival jitter,v4,1383665259578760389,degraded,primary=jitter;secondary=latency;loss=0;jitter_ms=29;latency_ms=0;reorder=0;duplicate=0,jitter-063.pcap
+jitter-064,jitter,controlled RTP inter-arrival jitter,v4,8182884752467024329,severe,primary=jitter;secondary=latency;loss=0;jitter_ms=35;latency_ms=0;reorder=0;duplicate=0,jitter-064.pcap
+jitter-065,jitter,controlled RTP inter-arrival jitter,v4,7752963607597801155,extreme,primary=jitter;secondary=latency;loss=0;jitter_ms=54;latency_ms=0;reorder=0;duplicate=0,jitter-065.pcap
+jitter-066,jitter,controlled RTP inter-arrival jitter,v4,4248197837195826570,mild,primary=jitter;secondary=duplicate;loss=0;jitter_ms=5;latency_ms=0;reorder=0;duplicate=0,jitter-066.pcap
+jitter-067,jitter,controlled RTP inter-arrival jitter,v4,4711855231275195543,moderate,primary=jitter;secondary=reorder;loss=0;jitter_ms=12;latency_ms=0;reorder=0;duplicate=0,jitter-067.pcap
+jitter-068,jitter,controlled RTP inter-arrival jitter,v4,6392365092757515987,degraded,primary=jitter;secondary=duplicate;loss=0;jitter_ms=28;latency_ms=0;reorder=0;duplicate=0,jitter-068.pcap
+jitter-069,jitter,controlled RTP inter-arrival jitter,v4,988640454028156960,severe,primary=jitter;secondary=loss;loss=0;jitter_ms=38;latency_ms=0;reorder=0;duplicate=0,jitter-069.pcap
+jitter-070,jitter,controlled RTP inter-arrival jitter,v4,7295476917651620714,extreme,primary=jitter;secondary=reorder;loss=0;jitter_ms=71;latency_ms=0;reorder=0;duplicate=0,jitter-070.pcap
+jitter-071,jitter,controlled RTP inter-arrival jitter,v4,4817967007872537374,mild,primary=jitter;secondary=reorder;loss=0;jitter_ms=7;latency_ms=0;reorder=0;duplicate=0,jitter-071.pcap
+jitter-072,jitter,controlled RTP inter-arrival jitter,v4,965951060179447853,moderate,primary=jitter;secondary=loss;loss=0;jitter_ms=15;latency_ms=0;reorder=0;duplicate=0,jitter-072.pcap
+jitter-073,jitter,controlled RTP inter-arrival jitter,v4,6049672112342253066,degraded,primary=jitter;secondary=reorder;loss=0;jitter_ms=22;latency_ms=0;reorder=0;duplicate=0,jitter-073.pcap
+jitter-074,jitter,controlled RTP inter-arrival jitter,v4,114571222941210986,severe,primary=jitter;secondary=duplicate;loss=0;jitter_ms=49;latency_ms=0;reorder=0;duplicate=0,jitter-074.pcap
+jitter-075,jitter,controlled RTP inter-arrival jitter,v4,2807467619511072727,extreme,primary=jitter;secondary=loss;loss=0;jitter_ms=67;latency_ms=0;reorder=0;duplicate=0,jitter-075.pcap
+jitter-076,jitter,controlled RTP inter-arrival jitter,v4,3966768883459407346,mild,primary=jitter;secondary=duplicate;loss=0;jitter_ms=3;latency_ms=0;reorder=0;duplicate=0,jitter-076.pcap
+jitter-077,jitter,controlled RTP inter-arrival jitter,v4,7535421069208476591,moderate,primary=jitter;secondary=loss;loss=0;jitter_ms=10;latency_ms=0;reorder=0;duplicate=0,jitter-077.pcap
+jitter-078,jitter,controlled RTP inter-arrival jitter,v4,1302595931604417206,degraded,primary=jitter;secondary=duplicate;loss=0;jitter_ms=24;latency_ms=0;reorder=0;duplicate=0,jitter-078.pcap
+jitter-079,jitter,controlled RTP inter-arrival jitter,v4,1479168043007337321,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=51;latency_ms=0;reorder=0;duplicate=0,jitter-079.pcap
+jitter-080,jitter,controlled RTP inter-arrival jitter,v4,609999750542208134,extreme,primary=jitter;secondary=latency;loss=0;jitter_ms=71;latency_ms=0;reorder=0;duplicate=0,jitter-080.pcap
+jitter-081,jitter,controlled RTP inter-arrival jitter,v4,7698723781338867336,mild,primary=jitter;secondary=latency;loss=0;jitter_ms=5;latency_ms=0;reorder=0;duplicate=0,jitter-081.pcap
+jitter-082,jitter,controlled RTP inter-arrival jitter,v4,3981214618645949983,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=16;latency_ms=0;reorder=0;duplicate=0,jitter-082.pcap
+jitter-083,jitter,controlled RTP inter-arrival jitter,v4,6717924965183394232,degraded,primary=jitter;secondary=loss;loss=0;jitter_ms=25;latency_ms=0;reorder=0;duplicate=0,jitter-083.pcap
+jitter-084,jitter,controlled RTP inter-arrival jitter,v4,2348631987905072943,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=34;latency_ms=0;reorder=0;duplicate=0,jitter-084.pcap
+jitter-085,jitter,controlled RTP inter-arrival jitter,v4,1713195806880821968,extreme,primary=jitter;secondary=duplicate;loss=0;jitter_ms=71;latency_ms=0;reorder=0;duplicate=0,jitter-085.pcap
+jitter-086,jitter,controlled RTP inter-arrival jitter,v4,4421839942352495004,mild,primary=jitter;secondary=loss;loss=0;jitter_ms=4;latency_ms=0;reorder=0;duplicate=0,jitter-086.pcap
+jitter-087,jitter,controlled RTP inter-arrival jitter,v4,5710406099523371581,moderate,primary=jitter;secondary=latency;loss=0;jitter_ms=9;latency_ms=0;reorder=0;duplicate=0,jitter-087.pcap
+jitter-088,jitter,controlled RTP inter-arrival jitter,v4,8793836041908158305,degraded,primary=jitter;secondary=reorder;loss=0;jitter_ms=30;latency_ms=0;reorder=0;duplicate=0,jitter-088.pcap
+jitter-089,jitter,controlled RTP inter-arrival jitter,v4,3618686542599069030,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=44;latency_ms=0;reorder=0;duplicate=0,jitter-089.pcap
+jitter-090,jitter,controlled RTP inter-arrival jitter,v4,2589958961025011981,extreme,primary=jitter;secondary=loss;loss=0;jitter_ms=50;latency_ms=0;reorder=0;duplicate=0,jitter-090.pcap
+jitter-091,jitter,controlled RTP inter-arrival jitter,v4,1214627733112854804,mild,primary=jitter;secondary=loss;loss=0;jitter_ms=7;latency_ms=0;reorder=0;duplicate=0,jitter-091.pcap
+jitter-092,jitter,controlled RTP inter-arrival jitter,v4,7557559676788287220,moderate,primary=jitter;secondary=loss;loss=0;jitter_ms=17;latency_ms=0;reorder=0;duplicate=0,jitter-092.pcap
+jitter-093,jitter,controlled RTP inter-arrival jitter,v4,210134506408591237,degraded,primary=jitter;secondary=duplicate;loss=0;jitter_ms=28;latency_ms=0;reorder=0;duplicate=0,jitter-093.pcap
+jitter-094,jitter,controlled RTP inter-arrival jitter,v4,6008212273411133208,severe,primary=jitter;secondary=latency;loss=0;jitter_ms=45;latency_ms=0;reorder=0;duplicate=0,jitter-094.pcap
+jitter-095,jitter,controlled RTP inter-arrival jitter,v4,1600059283407364444,extreme,primary=jitter;secondary=loss;loss=0;jitter_ms=60;latency_ms=0;reorder=0;duplicate=0,jitter-095.pcap
+jitter-096,jitter,controlled RTP inter-arrival jitter,v4,5259167786817065632,mild,primary=jitter;secondary=latency;loss=0;jitter_ms=6;latency_ms=0;reorder=0;duplicate=0,jitter-096.pcap
+jitter-097,jitter,controlled RTP inter-arrival jitter,v4,2008292235650260055,moderate,primary=jitter;secondary=reorder;loss=0;jitter_ms=12;latency_ms=0;reorder=0;duplicate=0,jitter-097.pcap
+jitter-098,jitter,controlled RTP inter-arrival jitter,v4,1563431984753074628,degraded,primary=jitter;secondary=latency;loss=0;jitter_ms=21;latency_ms=0;reorder=0;duplicate=0,jitter-098.pcap
+jitter-099,jitter,controlled RTP inter-arrival jitter,v4,5710886839685112566,severe,primary=jitter;secondary=reorder;loss=0;jitter_ms=31;latency_ms=0;reorder=0;duplicate=0,jitter-099.pcap
+jitter-100,jitter,controlled RTP inter-arrival jitter,v4,1963116308348938235,extreme,primary=jitter;secondary=duplicate;loss=0;jitter_ms=73;latency_ms=0;reorder=0;duplicate=0,jitter-100.pcap
+latency-001,latency,controlled passive RTCP RTT increase,v4,7406235604942064562,mild,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=24;reorder=0;duplicate=0,latency-001.pcap
+latency-002,latency,controlled passive RTCP RTT increase,v4,4394718685143931432,moderate,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=49;reorder=0;duplicate=0,latency-002.pcap
+latency-003,latency,controlled passive RTCP RTT increase,v4,4623839311130827388,degraded,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=109;reorder=0;duplicate=0,latency-003.pcap
+latency-004,latency,controlled passive RTCP RTT increase,v4,7785404771833210736,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=241;reorder=0;duplicate=0,latency-004.pcap
+latency-005,latency,controlled passive RTCP RTT increase,v4,3985998020926963383,extreme,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=372;reorder=0;duplicate=0,latency-005.pcap
+latency-006,latency,controlled passive RTCP RTT increase,v4,4441286436344042564,mild,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=3;reorder=0;duplicate=0,latency-006.pcap
+latency-007,latency,controlled passive RTCP RTT increase,v4,8766448688977352545,moderate,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=30;reorder=0;duplicate=0,latency-007.pcap
+latency-008,latency,controlled passive RTCP RTT increase,v4,4009012960658996193,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=117;reorder=0;duplicate=0,latency-008.pcap
+latency-009,latency,controlled passive RTCP RTT increase,v4,6595032658124377275,severe,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=219;reorder=0;duplicate=0,latency-009.pcap
+latency-010,latency,controlled passive RTCP RTT increase,v4,6093242728378419848,extreme,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=352;reorder=0;duplicate=0,latency-010.pcap
+latency-011,latency,controlled passive RTCP RTT increase,v4,8135981656075973,mild,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=2;reorder=0;duplicate=0,latency-011.pcap
+latency-012,latency,controlled passive RTCP RTT increase,v4,7569383425271134228,moderate,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=49;reorder=0;duplicate=0,latency-012.pcap
+latency-013,latency,controlled passive RTCP RTT increase,v4,8307625068010240122,degraded,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=137;reorder=0;duplicate=0,latency-013.pcap
+latency-014,latency,controlled passive RTCP RTT increase,v4,595043720948802146,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=248;reorder=0;duplicate=0,latency-014.pcap
+latency-015,latency,controlled passive RTCP RTT increase,v4,4270146310375021138,extreme,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=307;reorder=0;duplicate=0,latency-015.pcap
+latency-016,latency,controlled passive RTCP RTT increase,v4,8924873376728263390,mild,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=19;reorder=0;duplicate=0,latency-016.pcap
+latency-017,latency,controlled passive RTCP RTT increase,v4,3915707401972128357,moderate,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=65;reorder=0;duplicate=0,latency-017.pcap
+latency-018,latency,controlled passive RTCP RTT increase,v4,6006651043765212680,degraded,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=79;reorder=0;duplicate=0,latency-018.pcap
+latency-019,latency,controlled passive RTCP RTT increase,v4,929220001714305187,severe,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=155;reorder=0;duplicate=0,latency-019.pcap
+latency-020,latency,controlled passive RTCP RTT increase,v4,3214542277951288215,extreme,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=312;reorder=0;duplicate=0,latency-020.pcap
+latency-021,latency,controlled passive RTCP RTT increase,v4,6213742674767329450,mild,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=8;reorder=0;duplicate=0,latency-021.pcap
+latency-022,latency,controlled passive RTCP RTT increase,v4,9182130444488566600,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=60;reorder=0;duplicate=0,latency-022.pcap
+latency-023,latency,controlled passive RTCP RTT increase,v4,1719355003672657937,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=104;reorder=0;duplicate=0,latency-023.pcap
+latency-024,latency,controlled passive RTCP RTT increase,v4,684240293049830082,severe,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=221;reorder=0;duplicate=0,latency-024.pcap
+latency-025,latency,controlled passive RTCP RTT increase,v4,7698219152172758973,extreme,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=289;reorder=0;duplicate=0,latency-025.pcap
+latency-026,latency,controlled passive RTCP RTT increase,v4,1421896504304610388,mild,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=0,latency-026.pcap
+latency-027,latency,controlled passive RTCP RTT increase,v4,2811996882143278242,moderate,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=33;reorder=0;duplicate=0,latency-027.pcap
+latency-028,latency,controlled passive RTCP RTT increase,v4,3288745579678515339,degraded,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=107;reorder=0;duplicate=0,latency-028.pcap
+latency-029,latency,controlled passive RTCP RTT increase,v4,8523403846895094537,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=232;reorder=0;duplicate=0,latency-029.pcap
+latency-030,latency,controlled passive RTCP RTT increase,v4,1739769915012462511,extreme,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=264;reorder=0;duplicate=0,latency-030.pcap
+latency-031,latency,controlled passive RTCP RTT increase,v4,1739922103096830542,mild,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=10;reorder=0;duplicate=0,latency-031.pcap
+latency-032,latency,controlled passive RTCP RTT increase,v4,6280043138909810899,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=47;reorder=0;duplicate=0,latency-032.pcap
+latency-033,latency,controlled passive RTCP RTT increase,v4,1154679354750663860,degraded,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=86;reorder=0;duplicate=0,latency-033.pcap
+latency-034,latency,controlled passive RTCP RTT increase,v4,6583288512875820413,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=191;reorder=0;duplicate=0,latency-034.pcap
+latency-035,latency,controlled passive RTCP RTT increase,v4,1121761933229271531,extreme,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=314;reorder=0;duplicate=0,latency-035.pcap
+latency-036,latency,controlled passive RTCP RTT increase,v4,7079508479700540003,mild,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=20;reorder=0;duplicate=0,latency-036.pcap
+latency-037,latency,controlled passive RTCP RTT increase,v4,577954392914629263,moderate,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=59;reorder=0;duplicate=0,latency-037.pcap
+latency-038,latency,controlled passive RTCP RTT increase,v4,2464482161499695274,degraded,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=91;reorder=0;duplicate=0,latency-038.pcap
+latency-039,latency,controlled passive RTCP RTT increase,v4,6870804167340299771,severe,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=147;reorder=0;duplicate=0,latency-039.pcap
+latency-040,latency,controlled passive RTCP RTT increase,v4,1826596206340769369,extreme,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=321;reorder=0;duplicate=0,latency-040.pcap
+latency-041,latency,controlled passive RTCP RTT increase,v4,8392589724300658434,mild,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=10;reorder=0;duplicate=0,latency-041.pcap
+latency-042,latency,controlled passive RTCP RTT increase,v4,934581410743127038,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=74;reorder=0;duplicate=0,latency-042.pcap
+latency-043,latency,controlled passive RTCP RTT increase,v4,7019724689733744993,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=97;reorder=0;duplicate=0,latency-043.pcap
+latency-044,latency,controlled passive RTCP RTT increase,v4,3283348852318430850,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=244;reorder=0;duplicate=0,latency-044.pcap
+latency-045,latency,controlled passive RTCP RTT increase,v4,5390521820871797935,extreme,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=323;reorder=0;duplicate=0,latency-045.pcap
+latency-046,latency,controlled passive RTCP RTT increase,v4,328065358355103765,mild,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=26;reorder=0;duplicate=0,latency-046.pcap
+latency-047,latency,controlled passive RTCP RTT increase,v4,207630499518553614,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=37;reorder=0;duplicate=0,latency-047.pcap
+latency-048,latency,controlled passive RTCP RTT increase,v4,5285491734270692997,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=112;reorder=0;duplicate=0,latency-048.pcap
+latency-049,latency,controlled passive RTCP RTT increase,v4,1755236687492566695,severe,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=184;reorder=0;duplicate=0,latency-049.pcap
+latency-050,latency,controlled passive RTCP RTT increase,v4,31258310909611357,extreme,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=316;reorder=0;duplicate=0,latency-050.pcap
+latency-051,latency,controlled passive RTCP RTT increase,v4,6213660514633447871,mild,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=13;reorder=0;duplicate=0,latency-051.pcap
+latency-052,latency,controlled passive RTCP RTT increase,v4,9128456474824212535,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=32;reorder=0;duplicate=0,latency-052.pcap
+latency-053,latency,controlled passive RTCP RTT increase,v4,3118808708259267012,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=114;reorder=0;duplicate=0,latency-053.pcap
+latency-054,latency,controlled passive RTCP RTT increase,v4,5398550140921479297,severe,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=149;reorder=0;duplicate=0,latency-054.pcap
+latency-055,latency,controlled passive RTCP RTT increase,v4,376116061530040567,extreme,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=290;reorder=0;duplicate=0,latency-055.pcap
+latency-056,latency,controlled passive RTCP RTT increase,v4,8426917195007071399,mild,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=21;reorder=0;duplicate=0,latency-056.pcap
+latency-057,latency,controlled passive RTCP RTT increase,v4,7158284417741935203,moderate,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=61;reorder=0;duplicate=0,latency-057.pcap
+latency-058,latency,controlled passive RTCP RTT increase,v4,6135224147728705376,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=78;reorder=0;duplicate=0,latency-058.pcap
+latency-059,latency,controlled passive RTCP RTT increase,v4,960845720431272401,severe,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=195;reorder=0;duplicate=0,latency-059.pcap
+latency-060,latency,controlled passive RTCP RTT increase,v4,210650219768733422,extreme,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=343;reorder=0;duplicate=0,latency-060.pcap
+latency-061,latency,controlled passive RTCP RTT increase,v4,2990898533932359280,mild,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=12;reorder=0;duplicate=0,latency-061.pcap
+latency-062,latency,controlled passive RTCP RTT increase,v4,7339757359262952105,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=75;reorder=0;duplicate=0,latency-062.pcap
+latency-063,latency,controlled passive RTCP RTT increase,v4,262157176859830890,degraded,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=135;reorder=0;duplicate=0,latency-063.pcap
+latency-064,latency,controlled passive RTCP RTT increase,v4,4255514780703475337,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=217;reorder=0;duplicate=0,latency-064.pcap
+latency-065,latency,controlled passive RTCP RTT increase,v4,5394338815796752436,extreme,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=336;reorder=0;duplicate=0,latency-065.pcap
+latency-066,latency,controlled passive RTCP RTT increase,v4,747551728906073721,mild,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=18;reorder=0;duplicate=0,latency-066.pcap
+latency-067,latency,controlled passive RTCP RTT increase,v4,7086691636521255943,moderate,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=57;reorder=0;duplicate=0,latency-067.pcap
+latency-068,latency,controlled passive RTCP RTT increase,v4,1758953673282094731,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=116;reorder=0;duplicate=0,latency-068.pcap
+latency-069,latency,controlled passive RTCP RTT increase,v4,985898011383196969,severe,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=211;reorder=0;duplicate=0,latency-069.pcap
+latency-070,latency,controlled passive RTCP RTT increase,v4,3735166324233704716,extreme,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=345;reorder=0;duplicate=0,latency-070.pcap
+latency-071,latency,controlled passive RTCP RTT increase,v4,5032843836327211353,mild,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=20;reorder=0;duplicate=0,latency-071.pcap
+latency-072,latency,controlled passive RTCP RTT increase,v4,7442366304141586431,moderate,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=78;reorder=0;duplicate=0,latency-072.pcap
+latency-073,latency,controlled passive RTCP RTT increase,v4,8948473965399216078,degraded,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=145;reorder=0;duplicate=0,latency-073.pcap
+latency-074,latency,controlled passive RTCP RTT increase,v4,2308190237631843754,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=254;reorder=0;duplicate=0,latency-074.pcap
+latency-075,latency,controlled passive RTCP RTT increase,v4,566850451502903255,extreme,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=276;reorder=0;duplicate=0,latency-075.pcap
+latency-076,latency,controlled passive RTCP RTT increase,v4,2392217766190694092,mild,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=16;reorder=0;duplicate=0,latency-076.pcap
+latency-077,latency,controlled passive RTCP RTT increase,v4,8139749510470933028,moderate,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=65;reorder=0;duplicate=0,latency-077.pcap
+latency-078,latency,controlled passive RTCP RTT increase,v4,8847303049869497510,degraded,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=135;reorder=0;duplicate=0,latency-078.pcap
+latency-079,latency,controlled passive RTCP RTT increase,v4,3434733267242180442,severe,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=205;reorder=0;duplicate=0,latency-079.pcap
+latency-080,latency,controlled passive RTCP RTT increase,v4,3647611115539060175,extreme,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=355;reorder=0;duplicate=0,latency-080.pcap
+latency-081,latency,controlled passive RTCP RTT increase,v4,5728657010828187809,mild,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=19;reorder=0;duplicate=0,latency-081.pcap
+latency-082,latency,controlled passive RTCP RTT increase,v4,5135798128341127308,moderate,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=55;reorder=0;duplicate=0,latency-082.pcap
+latency-083,latency,controlled passive RTCP RTT increase,v4,7394361210881992145,degraded,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=77;reorder=0;duplicate=0,latency-083.pcap
+latency-084,latency,controlled passive RTCP RTT increase,v4,4271506539252242873,severe,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=226;reorder=0;duplicate=0,latency-084.pcap
+latency-085,latency,controlled passive RTCP RTT increase,v4,7201309178390515727,extreme,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=287;reorder=0;duplicate=0,latency-085.pcap
+latency-086,latency,controlled passive RTCP RTT increase,v4,7925200386326931124,mild,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=17;reorder=0;duplicate=0,latency-086.pcap
+latency-087,latency,controlled passive RTCP RTT increase,v4,5559992830396414591,moderate,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=39;reorder=0;duplicate=0,latency-087.pcap
+latency-088,latency,controlled passive RTCP RTT increase,v4,390149808348526577,degraded,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=143;reorder=0;duplicate=0,latency-088.pcap
+latency-089,latency,controlled passive RTCP RTT increase,v4,1378601654326471214,severe,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=202;reorder=0;duplicate=0,latency-089.pcap
+latency-090,latency,controlled passive RTCP RTT increase,v4,4068957817274243022,extreme,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=254;reorder=0;duplicate=0,latency-090.pcap
+latency-091,latency,controlled passive RTCP RTT increase,v4,6498990399102446396,mild,primary=latency;secondary=reorder;loss=0;jitter_ms=0;latency_ms=23;reorder=0;duplicate=0,latency-091.pcap
+latency-092,latency,controlled passive RTCP RTT increase,v4,4324539008976513840,moderate,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=46;reorder=0;duplicate=0,latency-092.pcap
+latency-093,latency,controlled passive RTCP RTT increase,v4,8385173837963012980,degraded,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=111;reorder=0;duplicate=0,latency-093.pcap
+latency-094,latency,controlled passive RTCP RTT increase,v4,2352366540222220425,severe,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=213;reorder=0;duplicate=0,latency-094.pcap
+latency-095,latency,controlled passive RTCP RTT increase,v4,3010392445021124288,extreme,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=351;reorder=0;duplicate=0,latency-095.pcap
+latency-096,latency,controlled passive RTCP RTT increase,v4,8207279806689569420,mild,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=17;reorder=0;duplicate=0,latency-096.pcap
+latency-097,latency,controlled passive RTCP RTT increase,v4,973373764269093888,moderate,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=46;reorder=0;duplicate=0,latency-097.pcap
+latency-098,latency,controlled passive RTCP RTT increase,v4,5526626140805929730,degraded,primary=latency;secondary=loss;loss=0;jitter_ms=0;latency_ms=88;reorder=0;duplicate=0,latency-098.pcap
+latency-099,latency,controlled passive RTCP RTT increase,v4,3380144873793088354,severe,primary=latency;secondary=jitter;loss=0;jitter_ms=0;latency_ms=176;reorder=0;duplicate=0,latency-099.pcap
+latency-100,latency,controlled passive RTCP RTT increase,v4,3935837087097114121,extreme,primary=latency;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=261;reorder=0;duplicate=0,latency-100.pcap
+reorder-001,reorder,controlled RTP packet reordering,v4,577298811629332996,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-001.pcap
+reorder-002,reorder,controlled RTP packet reordering,v4,2370996195711584133,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-002.pcap
+reorder-003,reorder,controlled RTP packet reordering,v4,7958978999723653543,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-003.pcap
+reorder-004,reorder,controlled RTP packet reordering,v4,7773616162248508596,severe,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=8;duplicate=0,reorder-004.pcap
+reorder-005,reorder,controlled RTP packet reordering,v4,8633304011352795652,extreme,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-005.pcap
+reorder-006,reorder,controlled RTP packet reordering,v4,3792646260733275201,mild,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-006.pcap
+reorder-007,reorder,controlled RTP packet reordering,v4,6583312265243077744,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-007.pcap
+reorder-008,reorder,controlled RTP packet reordering,v4,6561763917834686718,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-008.pcap
+reorder-009,reorder,controlled RTP packet reordering,v4,9059675677276025625,severe,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-009.pcap
+reorder-010,reorder,controlled RTP packet reordering,v4,3323578814860968750,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=10;duplicate=0,reorder-010.pcap
+reorder-011,reorder,controlled RTP packet reordering,v4,5727813563933025919,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-011.pcap
+reorder-012,reorder,controlled RTP packet reordering,v4,8802973556916851986,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-012.pcap
+reorder-013,reorder,controlled RTP packet reordering,v4,6569182046223399015,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-013.pcap
+reorder-014,reorder,controlled RTP packet reordering,v4,5548184851280178441,severe,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-014.pcap
+reorder-015,reorder,controlled RTP packet reordering,v4,4464520235113574205,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=10;duplicate=0,reorder-015.pcap
+reorder-016,reorder,controlled RTP packet reordering,v4,3587967568848806216,mild,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-016.pcap
+reorder-017,reorder,controlled RTP packet reordering,v4,31107948161375472,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-017.pcap
+reorder-018,reorder,controlled RTP packet reordering,v4,6779642791402378437,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-018.pcap
+reorder-019,reorder,controlled RTP packet reordering,v4,5345748906732363382,severe,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-019.pcap
+reorder-020,reorder,controlled RTP packet reordering,v4,1335506421680121385,extreme,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=9;duplicate=0,reorder-020.pcap
+reorder-021,reorder,controlled RTP packet reordering,v4,3056811671424418255,mild,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-021.pcap
+reorder-022,reorder,controlled RTP packet reordering,v4,3704714434690601820,moderate,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-022.pcap
+reorder-023,reorder,controlled RTP packet reordering,v4,2849579470913114114,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-023.pcap
+reorder-024,reorder,controlled RTP packet reordering,v4,8672124099344166866,severe,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=8;duplicate=0,reorder-024.pcap
+reorder-025,reorder,controlled RTP packet reordering,v4,8367372446890116105,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-025.pcap
+reorder-026,reorder,controlled RTP packet reordering,v4,6568563848741930248,mild,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-026.pcap
+reorder-027,reorder,controlled RTP packet reordering,v4,2485169614872386395,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-027.pcap
+reorder-028,reorder,controlled RTP packet reordering,v4,7998449922966412544,degraded,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-028.pcap
+reorder-029,reorder,controlled RTP packet reordering,v4,652670091547104491,severe,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=5;duplicate=0,reorder-029.pcap
+reorder-030,reorder,controlled RTP packet reordering,v4,6425724324584781876,extreme,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-030.pcap
+reorder-031,reorder,controlled RTP packet reordering,v4,134029379554285119,mild,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-031.pcap
+reorder-032,reorder,controlled RTP packet reordering,v4,6203343318782843236,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-032.pcap
+reorder-033,reorder,controlled RTP packet reordering,v4,3121953485732353576,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-033.pcap
+reorder-034,reorder,controlled RTP packet reordering,v4,3857161124113603752,severe,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-034.pcap
+reorder-035,reorder,controlled RTP packet reordering,v4,8877398012793789738,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=9;duplicate=0,reorder-035.pcap
+reorder-036,reorder,controlled RTP packet reordering,v4,3309949229421615470,mild,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-036.pcap
+reorder-037,reorder,controlled RTP packet reordering,v4,8397068212245911742,moderate,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-037.pcap
+reorder-038,reorder,controlled RTP packet reordering,v4,8206271350343487527,degraded,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-038.pcap
+reorder-039,reorder,controlled RTP packet reordering,v4,7297026526960128993,severe,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=5;duplicate=0,reorder-039.pcap
+reorder-040,reorder,controlled RTP packet reordering,v4,7916432870949544825,extreme,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=9;duplicate=0,reorder-040.pcap
+reorder-041,reorder,controlled RTP packet reordering,v4,5023200548315086597,mild,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-041.pcap
+reorder-042,reorder,controlled RTP packet reordering,v4,5932897031582015886,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-042.pcap
+reorder-043,reorder,controlled RTP packet reordering,v4,2857034885864962125,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-043.pcap
+reorder-044,reorder,controlled RTP packet reordering,v4,5655819947801666296,severe,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-044.pcap
+reorder-045,reorder,controlled RTP packet reordering,v4,6424417884164533885,extreme,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=10;duplicate=0,reorder-045.pcap
+reorder-046,reorder,controlled RTP packet reordering,v4,5865241207315675300,mild,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-046.pcap
+reorder-047,reorder,controlled RTP packet reordering,v4,8988347051247006272,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-047.pcap
+reorder-048,reorder,controlled RTP packet reordering,v4,2472592337660747504,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-048.pcap
+reorder-049,reorder,controlled RTP packet reordering,v4,1630739548152663878,severe,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-049.pcap
+reorder-050,reorder,controlled RTP packet reordering,v4,4979695812548768532,extreme,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=9;duplicate=0,reorder-050.pcap
+reorder-051,reorder,controlled RTP packet reordering,v4,3748079905448207337,mild,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-051.pcap
+reorder-052,reorder,controlled RTP packet reordering,v4,1525232398262449607,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-052.pcap
+reorder-053,reorder,controlled RTP packet reordering,v4,9212544874706341602,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-053.pcap
+reorder-054,reorder,controlled RTP packet reordering,v4,8549366498810815883,severe,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-054.pcap
+reorder-055,reorder,controlled RTP packet reordering,v4,5500119767466522695,extreme,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=9;duplicate=0,reorder-055.pcap
+reorder-056,reorder,controlled RTP packet reordering,v4,4887848571703999721,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-056.pcap
+reorder-057,reorder,controlled RTP packet reordering,v4,3637472930347545698,moderate,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-057.pcap
+reorder-058,reorder,controlled RTP packet reordering,v4,8058775562662880692,degraded,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-058.pcap
+reorder-059,reorder,controlled RTP packet reordering,v4,4653261054686905805,severe,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-059.pcap
+reorder-060,reorder,controlled RTP packet reordering,v4,4735025850799953977,extreme,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=10;duplicate=0,reorder-060.pcap
+reorder-061,reorder,controlled RTP packet reordering,v4,6360069163615988688,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-061.pcap
+reorder-062,reorder,controlled RTP packet reordering,v4,5870953686091679168,moderate,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-062.pcap
+reorder-063,reorder,controlled RTP packet reordering,v4,8954555903803191560,degraded,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-063.pcap
+reorder-064,reorder,controlled RTP packet reordering,v4,6453708622754030776,severe,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-064.pcap
+reorder-065,reorder,controlled RTP packet reordering,v4,1831497710780686481,extreme,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=10;duplicate=0,reorder-065.pcap
+reorder-066,reorder,controlled RTP packet reordering,v4,3724270071215582061,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-066.pcap
+reorder-067,reorder,controlled RTP packet reordering,v4,4719891778884334648,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-067.pcap
+reorder-068,reorder,controlled RTP packet reordering,v4,4463966351177465179,degraded,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-068.pcap
+reorder-069,reorder,controlled RTP packet reordering,v4,2588084471058999082,severe,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-069.pcap
+reorder-070,reorder,controlled RTP packet reordering,v4,5596416445683898586,extreme,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-070.pcap
+reorder-071,reorder,controlled RTP packet reordering,v4,1255073131874272158,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-071.pcap
+reorder-072,reorder,controlled RTP packet reordering,v4,1631553222258082433,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-072.pcap
+reorder-073,reorder,controlled RTP packet reordering,v4,8729675341289219324,degraded,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-073.pcap
+reorder-074,reorder,controlled RTP packet reordering,v4,4259851299101578318,severe,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=5;duplicate=0,reorder-074.pcap
+reorder-075,reorder,controlled RTP packet reordering,v4,739628904205846511,extreme,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=9;duplicate=0,reorder-075.pcap
+reorder-076,reorder,controlled RTP packet reordering,v4,3836079836672538867,mild,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-076.pcap
+reorder-077,reorder,controlled RTP packet reordering,v4,5459619062181580340,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-077.pcap
+reorder-078,reorder,controlled RTP packet reordering,v4,3358216394516109734,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-078.pcap
+reorder-079,reorder,controlled RTP packet reordering,v4,9040818079243738149,severe,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=8;duplicate=0,reorder-079.pcap
+reorder-080,reorder,controlled RTP packet reordering,v4,3378019412936315162,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=10;duplicate=0,reorder-080.pcap
+reorder-081,reorder,controlled RTP packet reordering,v4,5651098291246558923,mild,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-081.pcap
+reorder-082,reorder,controlled RTP packet reordering,v4,2504047487805260725,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-082.pcap
+reorder-083,reorder,controlled RTP packet reordering,v4,3608859328532400146,degraded,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=5;duplicate=0,reorder-083.pcap
+reorder-084,reorder,controlled RTP packet reordering,v4,7492531457093207913,severe,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-084.pcap
+reorder-085,reorder,controlled RTP packet reordering,v4,2317123102071048901,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=7;duplicate=0,reorder-085.pcap
+reorder-086,reorder,controlled RTP packet reordering,v4,830080729506555240,mild,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-086.pcap
+reorder-087,reorder,controlled RTP packet reordering,v4,4312563821527964371,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-087.pcap
+reorder-088,reorder,controlled RTP packet reordering,v4,4972585912611648199,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-088.pcap
+reorder-089,reorder,controlled RTP packet reordering,v4,1085240793131853269,severe,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=8;duplicate=0,reorder-089.pcap
+reorder-090,reorder,controlled RTP packet reordering,v4,294144536055041903,extreme,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=8;duplicate=0,reorder-090.pcap
+reorder-091,reorder,controlled RTP packet reordering,v4,3114563426327816122,mild,primary=reorder;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=2;duplicate=0,reorder-091.pcap
+reorder-092,reorder,controlled RTP packet reordering,v4,8594897145126608044,moderate,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=3;duplicate=0,reorder-092.pcap
+reorder-093,reorder,controlled RTP packet reordering,v4,5475841643163652039,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-093.pcap
+reorder-094,reorder,controlled RTP packet reordering,v4,7277589314611978967,severe,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=8;duplicate=0,reorder-094.pcap
+reorder-095,reorder,controlled RTP packet reordering,v4,626171608937573497,extreme,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-095.pcap
+reorder-096,reorder,controlled RTP packet reordering,v4,1574855341045929784,mild,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=1;duplicate=0,reorder-096.pcap
+reorder-097,reorder,controlled RTP packet reordering,v4,2315482135269685262,moderate,primary=reorder;secondary=duplicate;loss=0;jitter_ms=0;latency_ms=0;reorder=4;duplicate=0,reorder-097.pcap
+reorder-098,reorder,controlled RTP packet reordering,v4,6676570726615450521,degraded,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=5;duplicate=0,reorder-098.pcap
+reorder-099,reorder,controlled RTP packet reordering,v4,44003913669971322,severe,primary=reorder;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=5;duplicate=0,reorder-099.pcap
+reorder-100,reorder,controlled RTP packet reordering,v4,6424928336890484768,extreme,primary=reorder;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=6;duplicate=0,reorder-100.pcap
+duplicate-001,duplicate,controlled RTP packet duplication,v4,8698066618157303353,mild,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-001.pcap
+duplicate-002,duplicate,controlled RTP packet duplication,v4,8145901991781312270,moderate,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-002.pcap
+duplicate-003,duplicate,controlled RTP packet duplication,v4,4789970092614430864,degraded,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-003.pcap
+duplicate-004,duplicate,controlled RTP packet duplication,v4,8090167175360124279,severe,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-004.pcap
+duplicate-005,duplicate,controlled RTP packet duplication,v4,2253768341162494920,extreme,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=9,duplicate-005.pcap
+duplicate-006,duplicate,controlled RTP packet duplication,v4,346596022428140779,mild,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-006.pcap
+duplicate-007,duplicate,controlled RTP packet duplication,v4,3912594178893566996,moderate,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-007.pcap
+duplicate-008,duplicate,controlled RTP packet duplication,v4,1071475541861907824,degraded,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-008.pcap
+duplicate-009,duplicate,controlled RTP packet duplication,v4,5590437777255275040,severe,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-009.pcap
+duplicate-010,duplicate,controlled RTP packet duplication,v4,7220462418987112293,extreme,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-010.pcap
+duplicate-011,duplicate,controlled RTP packet duplication,v4,6192506082649605876,mild,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-011.pcap
+duplicate-012,duplicate,controlled RTP packet duplication,v4,995827221241957222,moderate,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-012.pcap
+duplicate-013,duplicate,controlled RTP packet duplication,v4,6344762477114004190,degraded,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-013.pcap
+duplicate-014,duplicate,controlled RTP packet duplication,v4,1655210455552418268,severe,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-014.pcap
+duplicate-015,duplicate,controlled RTP packet duplication,v4,3855017532255289299,extreme,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-015.pcap
+duplicate-016,duplicate,controlled RTP packet duplication,v4,3709294186639553017,mild,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-016.pcap
+duplicate-017,duplicate,controlled RTP packet duplication,v4,5653696374248857707,moderate,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-017.pcap
+duplicate-018,duplicate,controlled RTP packet duplication,v4,7432879355320387729,degraded,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-018.pcap
+duplicate-019,duplicate,controlled RTP packet duplication,v4,5272717685413578522,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-019.pcap
+duplicate-020,duplicate,controlled RTP packet duplication,v4,746788792084853353,extreme,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=10,duplicate-020.pcap
+duplicate-021,duplicate,controlled RTP packet duplication,v4,7411200178516716018,mild,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-021.pcap
+duplicate-022,duplicate,controlled RTP packet duplication,v4,6161112761943164307,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-022.pcap
+duplicate-023,duplicate,controlled RTP packet duplication,v4,1964803888857974421,degraded,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-023.pcap
+duplicate-024,duplicate,controlled RTP packet duplication,v4,3711814360540702528,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=7,duplicate-024.pcap
+duplicate-025,duplicate,controlled RTP packet duplication,v4,3279289194729068924,extreme,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-025.pcap
+duplicate-026,duplicate,controlled RTP packet duplication,v4,7282882615124665053,mild,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-026.pcap
+duplicate-027,duplicate,controlled RTP packet duplication,v4,8443167200941025220,moderate,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-027.pcap
+duplicate-028,duplicate,controlled RTP packet duplication,v4,6534469443616106663,degraded,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=3,duplicate-028.pcap
+duplicate-029,duplicate,controlled RTP packet duplication,v4,4108187918537800712,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-029.pcap
+duplicate-030,duplicate,controlled RTP packet duplication,v4,3101064679557731296,extreme,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=7,duplicate-030.pcap
+duplicate-031,duplicate,controlled RTP packet duplication,v4,2471016024933594642,mild,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-031.pcap
+duplicate-032,duplicate,controlled RTP packet duplication,v4,1385951447930966391,moderate,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=3,duplicate-032.pcap
+duplicate-033,duplicate,controlled RTP packet duplication,v4,5474892746794830503,degraded,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-033.pcap
+duplicate-034,duplicate,controlled RTP packet duplication,v4,393181738339584569,severe,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-034.pcap
+duplicate-035,duplicate,controlled RTP packet duplication,v4,4000841693200426844,extreme,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-035.pcap
+duplicate-036,duplicate,controlled RTP packet duplication,v4,5129028037075453953,mild,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-036.pcap
+duplicate-037,duplicate,controlled RTP packet duplication,v4,6842345590792527904,moderate,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-037.pcap
+duplicate-038,duplicate,controlled RTP packet duplication,v4,6583355971414432015,degraded,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-038.pcap
+duplicate-039,duplicate,controlled RTP packet duplication,v4,6761986712914867683,severe,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-039.pcap
+duplicate-040,duplicate,controlled RTP packet duplication,v4,2729401121849879043,extreme,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=7,duplicate-040.pcap
+duplicate-041,duplicate,controlled RTP packet duplication,v4,6908589375908100481,mild,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-041.pcap
+duplicate-042,duplicate,controlled RTP packet duplication,v4,1253412378361515395,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=3,duplicate-042.pcap
+duplicate-043,duplicate,controlled RTP packet duplication,v4,5999901293556666446,degraded,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-043.pcap
+duplicate-044,duplicate,controlled RTP packet duplication,v4,7720009538965636025,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-044.pcap
+duplicate-045,duplicate,controlled RTP packet duplication,v4,1416635563191455349,extreme,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=7,duplicate-045.pcap
+duplicate-046,duplicate,controlled RTP packet duplication,v4,8112183288869768500,mild,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-046.pcap
+duplicate-047,duplicate,controlled RTP packet duplication,v4,1032971011708330253,moderate,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-047.pcap
+duplicate-048,duplicate,controlled RTP packet duplication,v4,3758614911913049230,degraded,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-048.pcap
+duplicate-049,duplicate,controlled RTP packet duplication,v4,8393367764530581533,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-049.pcap
+duplicate-050,duplicate,controlled RTP packet duplication,v4,3758460632671020808,extreme,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-050.pcap
+duplicate-051,duplicate,controlled RTP packet duplication,v4,1708732072381579442,mild,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-051.pcap
+duplicate-052,duplicate,controlled RTP packet duplication,v4,1074744399979989816,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-052.pcap
+duplicate-053,duplicate,controlled RTP packet duplication,v4,1925441641103186391,degraded,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-053.pcap
+duplicate-054,duplicate,controlled RTP packet duplication,v4,3962672937227380643,severe,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-054.pcap
+duplicate-055,duplicate,controlled RTP packet duplication,v4,6111194670252713795,extreme,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-055.pcap
+duplicate-056,duplicate,controlled RTP packet duplication,v4,4473932303114072962,mild,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-056.pcap
+duplicate-057,duplicate,controlled RTP packet duplication,v4,1895199528497739170,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-057.pcap
+duplicate-058,duplicate,controlled RTP packet duplication,v4,5797603240767922718,degraded,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-058.pcap
+duplicate-059,duplicate,controlled RTP packet duplication,v4,2620560027723197365,severe,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-059.pcap
+duplicate-060,duplicate,controlled RTP packet duplication,v4,1493308024608014974,extreme,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-060.pcap
+duplicate-061,duplicate,controlled RTP packet duplication,v4,3583954333499242250,mild,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-061.pcap
+duplicate-062,duplicate,controlled RTP packet duplication,v4,2687066051957733874,moderate,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-062.pcap
+duplicate-063,duplicate,controlled RTP packet duplication,v4,8185482883950760977,degraded,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-063.pcap
+duplicate-064,duplicate,controlled RTP packet duplication,v4,2652627833155940472,severe,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-064.pcap
+duplicate-065,duplicate,controlled RTP packet duplication,v4,2022607639290328241,extreme,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-065.pcap
+duplicate-066,duplicate,controlled RTP packet duplication,v4,2059729633629424817,mild,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-066.pcap
+duplicate-067,duplicate,controlled RTP packet duplication,v4,1236415822763385350,moderate,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-067.pcap
+duplicate-068,duplicate,controlled RTP packet duplication,v4,191328051476932225,degraded,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-068.pcap
+duplicate-069,duplicate,controlled RTP packet duplication,v4,6176589269364493049,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-069.pcap
+duplicate-070,duplicate,controlled RTP packet duplication,v4,1279522329922129865,extreme,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=10,duplicate-070.pcap
+duplicate-071,duplicate,controlled RTP packet duplication,v4,4677634944858843762,mild,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-071.pcap
+duplicate-072,duplicate,controlled RTP packet duplication,v4,3187176457116824031,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-072.pcap
+duplicate-073,duplicate,controlled RTP packet duplication,v4,7510396670964067055,degraded,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-073.pcap
+duplicate-074,duplicate,controlled RTP packet duplication,v4,6441540610841561935,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-074.pcap
+duplicate-075,duplicate,controlled RTP packet duplication,v4,8967683344403220523,extreme,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-075.pcap
+duplicate-076,duplicate,controlled RTP packet duplication,v4,3506082148451760394,mild,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-076.pcap
+duplicate-077,duplicate,controlled RTP packet duplication,v4,8320506695727490189,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-077.pcap
+duplicate-078,duplicate,controlled RTP packet duplication,v4,93556110412253464,degraded,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-078.pcap
+duplicate-079,duplicate,controlled RTP packet duplication,v4,7420943645509788636,severe,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-079.pcap
+duplicate-080,duplicate,controlled RTP packet duplication,v4,5112371467307805057,extreme,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=9,duplicate-080.pcap
+duplicate-081,duplicate,controlled RTP packet duplication,v4,7201330544460454710,mild,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-081.pcap
+duplicate-082,duplicate,controlled RTP packet duplication,v4,101110222317613129,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-082.pcap
+duplicate-083,duplicate,controlled RTP packet duplication,v4,6889575468438108023,degraded,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-083.pcap
+duplicate-084,duplicate,controlled RTP packet duplication,v4,6456508796612724872,severe,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-084.pcap
+duplicate-085,duplicate,controlled RTP packet duplication,v4,5524477860477779192,extreme,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=7,duplicate-085.pcap
+duplicate-086,duplicate,controlled RTP packet duplication,v4,5529780750718890529,mild,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-086.pcap
+duplicate-087,duplicate,controlled RTP packet duplication,v4,1320884827775361500,moderate,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-087.pcap
+duplicate-088,duplicate,controlled RTP packet duplication,v4,3595267730999255955,degraded,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=3,duplicate-088.pcap
+duplicate-089,duplicate,controlled RTP packet duplication,v4,4571646116640473124,severe,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=5,duplicate-089.pcap
+duplicate-090,duplicate,controlled RTP packet duplication,v4,6350808345594343671,extreme,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-090.pcap
+duplicate-091,duplicate,controlled RTP packet duplication,v4,4815083232729896846,mild,primary=duplicate;secondary=jitter;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-091.pcap
+duplicate-092,duplicate,controlled RTP packet duplication,v4,824517038513269105,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=2,duplicate-092.pcap
+duplicate-093,duplicate,controlled RTP packet duplication,v4,8476163813416372803,degraded,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-093.pcap
+duplicate-094,duplicate,controlled RTP packet duplication,v4,5610980663949859067,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=6,duplicate-094.pcap
+duplicate-095,duplicate,controlled RTP packet duplication,v4,7328922218646035299,extreme,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=9,duplicate-095.pcap
+duplicate-096,duplicate,controlled RTP packet duplication,v4,4067638378030576954,mild,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=1,duplicate-096.pcap
+duplicate-097,duplicate,controlled RTP packet duplication,v4,3888471226326565021,moderate,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=4,duplicate-097.pcap
+duplicate-098,duplicate,controlled RTP packet duplication,v4,339064992848750667,degraded,primary=duplicate;secondary=latency;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=3,duplicate-098.pcap
+duplicate-099,duplicate,controlled RTP packet duplication,v4,4586244303248588593,severe,primary=duplicate;secondary=reorder;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-099.pcap
+duplicate-100,duplicate,controlled RTP packet duplication,v4,5797159559290634431,extreme,primary=duplicate;secondary=loss;loss=0;jitter_ms=0;latency_ms=0;reorder=0;duplicate=8,duplicate-100.pcap
+combined-001,combined,loss + jitter + passive RTT impairment,v4,3704359838488223555,mild,primary=combined;secondary=latency;loss=2;jitter_ms=4;latency_ms=21;reorder=0;duplicate=0,combined-001.pcap
+combined-002,combined,loss + jitter + passive RTT impairment,v4,9025899376093414975,moderate,primary=combined;secondary=loss;loss=2;jitter_ms=13;latency_ms=62;reorder=0;duplicate=0,combined-002.pcap
+combined-003,combined,loss + jitter + passive RTT impairment,v4,7369826319020494343,degraded,primary=combined;secondary=loss;loss=9;jitter_ms=20;latency_ms=76;reorder=0;duplicate=0,combined-003.pcap
+combined-004,combined,loss + jitter + passive RTT impairment,v4,2135002564792286384,severe,primary=combined;secondary=duplicate;loss=10;jitter_ms=42;latency_ms=144;reorder=7;duplicate=0,combined-004.pcap
+combined-005,combined,loss + jitter + passive RTT impairment,v4,1825288405822652580,extreme,primary=combined;secondary=jitter;loss=15;jitter_ms=74;latency_ms=290;reorder=9;duplicate=10,combined-005.pcap
+combined-006,combined,loss + jitter + passive RTT impairment,v4,2160642079461492724,mild,primary=combined;secondary=latency;loss=1;jitter_ms=4;latency_ms=1;reorder=0;duplicate=0,combined-006.pcap
+combined-007,combined,loss + jitter + passive RTT impairment,v4,4955798621435113493,moderate,primary=combined;secondary=duplicate;loss=2;jitter_ms=13;latency_ms=55;reorder=0;duplicate=0,combined-007.pcap
+combined-008,combined,loss + jitter + passive RTT impairment,v4,8977911275495382874,degraded,primary=combined;secondary=duplicate;loss=5;jitter_ms=18;latency_ms=141;reorder=0;duplicate=0,combined-008.pcap
+combined-009,combined,loss + jitter + passive RTT impairment,v4,1307421831731312351,severe,primary=combined;secondary=reorder;loss=12;jitter_ms=46;latency_ms=189;reorder=6;duplicate=0,combined-009.pcap
+combined-010,combined,loss + jitter + passive RTT impairment,v4,6829865813233774994,extreme,primary=combined;secondary=jitter;loss=15;jitter_ms=63;latency_ms=285;reorder=9;duplicate=9,combined-010.pcap
+combined-011,combined,loss + jitter + passive RTT impairment,v4,2423515115847708887,mild,primary=combined;secondary=reorder;loss=1;jitter_ms=3;latency_ms=3;reorder=0;duplicate=0,combined-011.pcap
+combined-012,combined,loss + jitter + passive RTT impairment,v4,4303043452635025158,moderate,primary=combined;secondary=reorder;loss=5;jitter_ms=8;latency_ms=79;reorder=0;duplicate=0,combined-012.pcap
+combined-013,combined,loss + jitter + passive RTT impairment,v4,54725956697119426,degraded,primary=combined;secondary=loss;loss=8;jitter_ms=24;latency_ms=129;reorder=0;duplicate=0,combined-013.pcap
+combined-014,combined,loss + jitter + passive RTT impairment,v4,1812317363312762858,severe,primary=combined;secondary=jitter;loss=11;jitter_ms=30;latency_ms=173;reorder=7;duplicate=0,combined-014.pcap
+combined-015,combined,loss + jitter + passive RTT impairment,v4,8894081996983040328,extreme,primary=combined;secondary=loss;loss=19;jitter_ms=71;latency_ms=374;reorder=9;duplicate=7,combined-015.pcap
+combined-016,combined,loss + jitter + passive RTT impairment,v4,9158984290490747111,mild,primary=combined;secondary=latency;loss=2;jitter_ms=7;latency_ms=5;reorder=0;duplicate=0,combined-016.pcap
+combined-017,combined,loss + jitter + passive RTT impairment,v4,8182632786554511694,moderate,primary=combined;secondary=loss;loss=4;jitter_ms=14;latency_ms=66;reorder=0;duplicate=0,combined-017.pcap
+combined-018,combined,loss + jitter + passive RTT impairment,v4,594157389804477555,degraded,primary=combined;secondary=loss;loss=8;jitter_ms=28;latency_ms=102;reorder=0;duplicate=0,combined-018.pcap
+combined-019,combined,loss + jitter + passive RTT impairment,v4,6897711733790176134,severe,primary=combined;secondary=reorder;loss=15;jitter_ms=54;latency_ms=170;reorder=6;duplicate=0,combined-019.pcap
+combined-020,combined,loss + jitter + passive RTT impairment,v4,1632466338951816660,extreme,primary=combined;secondary=loss;loss=20;jitter_ms=65;latency_ms=278;reorder=9;duplicate=6,combined-020.pcap
+combined-021,combined,loss + jitter + passive RTT impairment,v4,4199646079060492150,mild,primary=combined;secondary=latency;loss=0;jitter_ms=4;latency_ms=11;reorder=0;duplicate=0,combined-021.pcap
+combined-022,combined,loss + jitter + passive RTT impairment,v4,4244240051896627986,moderate,primary=combined;secondary=loss;loss=3;jitter_ms=12;latency_ms=56;reorder=0;duplicate=0,combined-022.pcap
+combined-023,combined,loss + jitter + passive RTT impairment,v4,2866920411399775759,degraded,primary=combined;secondary=reorder;loss=9;jitter_ms=21;latency_ms=109;reorder=0;duplicate=0,combined-023.pcap
+combined-024,combined,loss + jitter + passive RTT impairment,v4,2174495483482864898,severe,primary=combined;secondary=jitter;loss=10;jitter_ms=39;latency_ms=158;reorder=8;duplicate=0,combined-024.pcap
+combined-025,combined,loss + jitter + passive RTT impairment,v4,2204378394866094022,extreme,primary=combined;secondary=loss;loss=17;jitter_ms=55;latency_ms=330;reorder=7;duplicate=6,combined-025.pcap
+combined-026,combined,loss + jitter + passive RTT impairment,v4,1257852647938895073,mild,primary=combined;secondary=duplicate;loss=1;jitter_ms=7;latency_ms=12;reorder=0;duplicate=0,combined-026.pcap
+combined-027,combined,loss + jitter + passive RTT impairment,v4,5984259694062056979,moderate,primary=combined;secondary=duplicate;loss=3;jitter_ms=16;latency_ms=54;reorder=0;duplicate=0,combined-027.pcap
+combined-028,combined,loss + jitter + passive RTT impairment,v4,1907496352845002068,degraded,primary=combined;secondary=jitter;loss=9;jitter_ms=26;latency_ms=80;reorder=0;duplicate=0,combined-028.pcap
+combined-029,combined,loss + jitter + passive RTT impairment,v4,7047440796014783760,severe,primary=combined;secondary=duplicate;loss=12;jitter_ms=34;latency_ms=198;reorder=6;duplicate=0,combined-029.pcap
+combined-030,combined,loss + jitter + passive RTT impairment,v4,4900651141260284440,extreme,primary=combined;secondary=latency;loss=20;jitter_ms=74;latency_ms=278;reorder=7;duplicate=8,combined-030.pcap
+combined-031,combined,loss + jitter + passive RTT impairment,v4,705201488806757893,mild,primary=combined;secondary=loss;loss=0;jitter_ms=7;latency_ms=14;reorder=0;duplicate=0,combined-031.pcap
+combined-032,combined,loss + jitter + passive RTT impairment,v4,3534480910671897921,moderate,primary=combined;secondary=duplicate;loss=4;jitter_ms=11;latency_ms=57;reorder=0;duplicate=0,combined-032.pcap
+combined-033,combined,loss + jitter + passive RTT impairment,v4,4216676323466640265,degraded,primary=combined;secondary=latency;loss=8;jitter_ms=19;latency_ms=133;reorder=0;duplicate=0,combined-033.pcap
+combined-034,combined,loss + jitter + passive RTT impairment,v4,1412413926229759055,severe,primary=combined;secondary=reorder;loss=15;jitter_ms=54;latency_ms=220;reorder=5;duplicate=0,combined-034.pcap
+combined-035,combined,loss + jitter + passive RTT impairment,v4,2883162340889201785,extreme,primary=combined;secondary=reorder;loss=20;jitter_ms=51;latency_ms=293;reorder=7;duplicate=8,combined-035.pcap
+combined-036,combined,loss + jitter + passive RTT impairment,v4,1085894274609573023,mild,primary=combined;secondary=latency;loss=2;jitter_ms=3;latency_ms=20;reorder=0;duplicate=0,combined-036.pcap
+combined-037,combined,loss + jitter + passive RTT impairment,v4,474221151248333089,moderate,primary=combined;secondary=reorder;loss=3;jitter_ms=9;latency_ms=73;reorder=0;duplicate=0,combined-037.pcap
+combined-038,combined,loss + jitter + passive RTT impairment,v4,8551056925751004076,degraded,primary=combined;secondary=latency;loss=9;jitter_ms=22;latency_ms=102;reorder=0;duplicate=0,combined-038.pcap
+combined-039,combined,loss + jitter + passive RTT impairment,v4,5242146407635770479,severe,primary=combined;secondary=loss;loss=14;jitter_ms=30;latency_ms=221;reorder=8;duplicate=0,combined-039.pcap
+combined-040,combined,loss + jitter + passive RTT impairment,v4,4891204983055043829,extreme,primary=combined;secondary=reorder;loss=17;jitter_ms=55;latency_ms=302;reorder=7;duplicate=10,combined-040.pcap
+combined-041,combined,loss + jitter + passive RTT impairment,v4,2981697602044662919,mild,primary=combined;secondary=jitter;loss=2;jitter_ms=6;latency_ms=1;reorder=0;duplicate=0,combined-041.pcap
+combined-042,combined,loss + jitter + passive RTT impairment,v4,3690438748377144407,moderate,primary=combined;secondary=reorder;loss=3;jitter_ms=12;latency_ms=73;reorder=0;duplicate=0,combined-042.pcap
+combined-043,combined,loss + jitter + passive RTT impairment,v4,8568719037584231689,degraded,primary=combined;secondary=reorder;loss=6;jitter_ms=24;latency_ms=126;reorder=0;duplicate=0,combined-043.pcap
+combined-044,combined,loss + jitter + passive RTT impairment,v4,100607342607846850,severe,primary=combined;secondary=reorder;loss=12;jitter_ms=43;latency_ms=219;reorder=8;duplicate=0,combined-044.pcap
+combined-045,combined,loss + jitter + passive RTT impairment,v4,1474800332516538910,extreme,primary=combined;secondary=latency;loss=16;jitter_ms=65;latency_ms=306;reorder=10;duplicate=10,combined-045.pcap
+combined-046,combined,loss + jitter + passive RTT impairment,v4,7446884250875907754,mild,primary=combined;secondary=jitter;loss=1;jitter_ms=7;latency_ms=21;reorder=0;duplicate=0,combined-046.pcap
+combined-047,combined,loss + jitter + passive RTT impairment,v4,879227295076445969,moderate,primary=combined;secondary=latency;loss=2;jitter_ms=11;latency_ms=63;reorder=0;duplicate=0,combined-047.pcap
+combined-048,combined,loss + jitter + passive RTT impairment,v4,6008798450694482881,degraded,primary=combined;secondary=loss;loss=9;jitter_ms=30;latency_ms=78;reorder=0;duplicate=0,combined-048.pcap
+combined-049,combined,loss + jitter + passive RTT impairment,v4,6764070614348844831,severe,primary=combined;secondary=latency;loss=12;jitter_ms=53;latency_ms=225;reorder=8;duplicate=0,combined-049.pcap
+combined-050,combined,loss + jitter + passive RTT impairment,v4,1014777865754472139,extreme,primary=combined;secondary=duplicate;loss=16;jitter_ms=54;latency_ms=328;reorder=10;duplicate=8,combined-050.pcap
+combined-051,combined,loss + jitter + passive RTT impairment,v4,7891865621412845252,mild,primary=combined;secondary=latency;loss=0;jitter_ms=3;latency_ms=7;reorder=0;duplicate=0,combined-051.pcap
+combined-052,combined,loss + jitter + passive RTT impairment,v4,6270481401484767781,moderate,primary=combined;secondary=reorder;loss=2;jitter_ms=14;latency_ms=50;reorder=0;duplicate=0,combined-052.pcap
+combined-053,combined,loss + jitter + passive RTT impairment,v4,2951594527874488273,degraded,primary=combined;secondary=latency;loss=8;jitter_ms=30;latency_ms=136;reorder=0;duplicate=0,combined-053.pcap
+combined-054,combined,loss + jitter + passive RTT impairment,v4,3371007609358625361,severe,primary=combined;secondary=loss;loss=14;jitter_ms=43;latency_ms=149;reorder=7;duplicate=0,combined-054.pcap
+combined-055,combined,loss + jitter + passive RTT impairment,v4,4171254809614315476,extreme,primary=combined;secondary=loss;loss=18;jitter_ms=62;latency_ms=305;reorder=9;duplicate=6,combined-055.pcap
+combined-056,combined,loss + jitter + passive RTT impairment,v4,1306617111473880905,mild,primary=combined;secondary=jitter;loss=0;jitter_ms=5;latency_ms=1;reorder=0;duplicate=0,combined-056.pcap
+combined-057,combined,loss + jitter + passive RTT impairment,v4,8254635243035632502,moderate,primary=combined;secondary=jitter;loss=5;jitter_ms=14;latency_ms=38;reorder=0;duplicate=0,combined-057.pcap
+combined-058,combined,loss + jitter + passive RTT impairment,v4,5958618256102791830,degraded,primary=combined;secondary=jitter;loss=7;jitter_ms=28;latency_ms=76;reorder=0;duplicate=0,combined-058.pcap
+combined-059,combined,loss + jitter + passive RTT impairment,v4,4977084372810755730,severe,primary=combined;secondary=jitter;loss=11;jitter_ms=53;latency_ms=142;reorder=6;duplicate=0,combined-059.pcap
+combined-060,combined,loss + jitter + passive RTT impairment,v4,8720642132268332193,extreme,primary=combined;secondary=latency;loss=20;jitter_ms=50;latency_ms=360;reorder=9;duplicate=8,combined-060.pcap
+combined-061,combined,loss + jitter + passive RTT impairment,v4,7761584182153678966,mild,primary=combined;secondary=loss;loss=0;jitter_ms=4;latency_ms=29;reorder=0;duplicate=0,combined-061.pcap
+combined-062,combined,loss + jitter + passive RTT impairment,v4,8548877855435157930,moderate,primary=combined;secondary=latency;loss=2;jitter_ms=10;latency_ms=47;reorder=0;duplicate=0,combined-062.pcap
+combined-063,combined,loss + jitter + passive RTT impairment,v4,3422969820470946888,degraded,primary=combined;secondary=loss;loss=8;jitter_ms=25;latency_ms=109;reorder=0;duplicate=0,combined-063.pcap
+combined-064,combined,loss + jitter + passive RTT impairment,v4,2432416595562416719,severe,primary=combined;secondary=reorder;loss=14;jitter_ms=47;latency_ms=232;reorder=8;duplicate=0,combined-064.pcap
+combined-065,combined,loss + jitter + passive RTT impairment,v4,1811808298265175001,extreme,primary=combined;secondary=loss;loss=20;jitter_ms=58;latency_ms=278;reorder=7;duplicate=9,combined-065.pcap
+combined-066,combined,loss + jitter + passive RTT impairment,v4,1499153410805825997,mild,primary=combined;secondary=latency;loss=1;jitter_ms=5;latency_ms=20;reorder=0;duplicate=0,combined-066.pcap
+combined-067,combined,loss + jitter + passive RTT impairment,v4,3023463992336014061,moderate,primary=combined;secondary=duplicate;loss=5;jitter_ms=13;latency_ms=73;reorder=0;duplicate=0,combined-067.pcap
+combined-068,combined,loss + jitter + passive RTT impairment,v4,5414144160624643616,degraded,primary=combined;secondary=loss;loss=5;jitter_ms=30;latency_ms=141;reorder=0;duplicate=0,combined-068.pcap
+combined-069,combined,loss + jitter + passive RTT impairment,v4,4234916032499847890,severe,primary=combined;secondary=loss;loss=15;jitter_ms=54;latency_ms=217;reorder=6;duplicate=0,combined-069.pcap
+combined-070,combined,loss + jitter + passive RTT impairment,v4,4628952788047564059,extreme,primary=combined;secondary=latency;loss=20;jitter_ms=74;latency_ms=283;reorder=6;duplicate=7,combined-070.pcap
+combined-071,combined,loss + jitter + passive RTT impairment,v4,2928934640503837161,mild,primary=combined;secondary=jitter;loss=1;jitter_ms=5;latency_ms=29;reorder=0;duplicate=0,combined-071.pcap
+combined-072,combined,loss + jitter + passive RTT impairment,v4,8106673148810960287,moderate,primary=combined;secondary=reorder;loss=2;jitter_ms=8;latency_ms=38;reorder=0;duplicate=0,combined-072.pcap
+combined-073,combined,loss + jitter + passive RTT impairment,v4,3734491697609388593,degraded,primary=combined;secondary=jitter;loss=5;jitter_ms=31;latency_ms=106;reorder=0;duplicate=0,combined-073.pcap
+combined-074,combined,loss + jitter + passive RTT impairment,v4,7244882845498903108,severe,primary=combined;secondary=duplicate;loss=15;jitter_ms=44;latency_ms=146;reorder=8;duplicate=0,combined-074.pcap
+combined-075,combined,loss + jitter + passive RTT impairment,v4,5786839113722774541,extreme,primary=combined;secondary=loss;loss=15;jitter_ms=65;latency_ms=296;reorder=7;duplicate=6,combined-075.pcap
+combined-076,combined,loss + jitter + passive RTT impairment,v4,442195976182133652,mild,primary=combined;secondary=loss;loss=0;jitter_ms=4;latency_ms=22;reorder=0;duplicate=0,combined-076.pcap
+combined-077,combined,loss + jitter + passive RTT impairment,v4,5385393465088070127,moderate,primary=combined;secondary=jitter;loss=4;jitter_ms=8;latency_ms=59;reorder=0;duplicate=0,combined-077.pcap
+combined-078,combined,loss + jitter + passive RTT impairment,v4,4731081527982504483,degraded,primary=combined;secondary=duplicate;loss=5;jitter_ms=22;latency_ms=94;reorder=0;duplicate=0,combined-078.pcap
+combined-079,combined,loss + jitter + passive RTT impairment,v4,3478502773192167085,severe,primary=combined;secondary=jitter;loss=13;jitter_ms=37;latency_ms=236;reorder=5;duplicate=0,combined-079.pcap
+combined-080,combined,loss + jitter + passive RTT impairment,v4,2299206269206776401,extreme,primary=combined;secondary=latency;loss=19;jitter_ms=51;latency_ms=347;reorder=10;duplicate=6,combined-080.pcap
+combined-081,combined,loss + jitter + passive RTT impairment,v4,2386775182499565284,mild,primary=combined;secondary=loss;loss=0;jitter_ms=4;latency_ms=3;reorder=0;duplicate=0,combined-081.pcap
+combined-082,combined,loss + jitter + passive RTT impairment,v4,2514165377271089061,moderate,primary=combined;secondary=loss;loss=5;jitter_ms=14;latency_ms=77;reorder=0;duplicate=0,combined-082.pcap
+combined-083,combined,loss + jitter + passive RTT impairment,v4,2063907422800651383,degraded,primary=combined;secondary=loss;loss=8;jitter_ms=31;latency_ms=137;reorder=0;duplicate=0,combined-083.pcap
+combined-084,combined,loss + jitter + passive RTT impairment,v4,7084727840339574370,severe,primary=combined;secondary=jitter;loss=9;jitter_ms=51;latency_ms=144;reorder=7;duplicate=0,combined-084.pcap
+combined-085,combined,loss + jitter + passive RTT impairment,v4,634560028683726723,extreme,primary=combined;secondary=reorder;loss=18;jitter_ms=62;latency_ms=336;reorder=6;duplicate=9,combined-085.pcap
+combined-086,combined,loss + jitter + passive RTT impairment,v4,186866904960745311,mild,primary=combined;secondary=jitter;loss=2;jitter_ms=5;latency_ms=3;reorder=0;duplicate=0,combined-086.pcap
+combined-087,combined,loss + jitter + passive RTT impairment,v4,6380496917943276549,moderate,primary=combined;secondary=loss;loss=5;jitter_ms=11;latency_ms=70;reorder=0;duplicate=0,combined-087.pcap
+combined-088,combined,loss + jitter + passive RTT impairment,v4,4900325575082643447,degraded,primary=combined;secondary=duplicate;loss=6;jitter_ms=27;latency_ms=146;reorder=0;duplicate=0,combined-088.pcap
+combined-089,combined,loss + jitter + passive RTT impairment,v4,2268436204951031352,severe,primary=combined;secondary=latency;loss=11;jitter_ms=39;latency_ms=157;reorder=5;duplicate=0,combined-089.pcap
+combined-090,combined,loss + jitter + passive RTT impairment,v4,6466911973899481212,extreme,primary=combined;secondary=reorder;loss=15;jitter_ms=65;latency_ms=251;reorder=6;duplicate=9,combined-090.pcap
+combined-091,combined,loss + jitter + passive RTT impairment,v4,4341342255332601284,mild,primary=combined;secondary=duplicate;loss=1;jitter_ms=6;latency_ms=22;reorder=0;duplicate=0,combined-091.pcap
+combined-092,combined,loss + jitter + passive RTT impairment,v4,5008908818720751612,moderate,primary=combined;secondary=duplicate;loss=5;jitter_ms=11;latency_ms=53;reorder=0;duplicate=0,combined-092.pcap
+combined-093,combined,loss + jitter + passive RTT impairment,v4,3590064195284475898,degraded,primary=combined;secondary=reorder;loss=6;jitter_ms=28;latency_ms=71;reorder=0;duplicate=0,combined-093.pcap
+combined-094,combined,loss + jitter + passive RTT impairment,v4,3299474599853737126,severe,primary=combined;secondary=jitter;loss=12;jitter_ms=30;latency_ms=221;reorder=6;duplicate=0,combined-094.pcap
+combined-095,combined,loss + jitter + passive RTT impairment,v4,4741250303650871549,extreme,primary=combined;secondary=reorder;loss=14;jitter_ms=72;latency_ms=306;reorder=10;duplicate=7,combined-095.pcap
+combined-096,combined,loss + jitter + passive RTT impairment,v4,652853207411074426,mild,primary=combined;secondary=latency;loss=2;jitter_ms=5;latency_ms=8;reorder=0;duplicate=0,combined-096.pcap
+combined-097,combined,loss + jitter + passive RTT impairment,v4,2039879670824161324,moderate,primary=combined;secondary=latency;loss=5;jitter_ms=16;latency_ms=71;reorder=0;duplicate=0,combined-097.pcap
+combined-098,combined,loss + jitter + passive RTT impairment,v4,1042511254389984578,degraded,primary=combined;secondary=jitter;loss=7;jitter_ms=20;latency_ms=117;reorder=0;duplicate=0,combined-098.pcap
+combined-099,combined,loss + jitter + passive RTT impairment,v4,1833639882585382044,severe,primary=combined;secondary=reorder;loss=11;jitter_ms=52;latency_ms=176;reorder=5;duplicate=0,combined-099.pcap
+combined-100,combined,loss + jitter + passive RTT impairment,v4,7540520179585539216,extreme,primary=combined;secondary=loss;loss=19;jitter_ms=56;latency_ms=261;reorder=9;duplicate=10,combined-100.pcap

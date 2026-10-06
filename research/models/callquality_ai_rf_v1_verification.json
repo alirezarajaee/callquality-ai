@@ -1,0 +1,17 @@
+{
+  "verification_schema_version": "1.0",
+  "model_artifact": "callquality_ai_rf_v1.json",
+  "test_samples": 250,
+  "matching_predictions": 250,
+  "prediction_parity": true,
+  "probability_parity": true,
+  "max_probability_difference": 0.0,
+  "tree_count": 700,
+  "feature_count": 29,
+  "classes": [
+    "critical",
+    "fair",
+    "good",
+    "poor"
+  ]
+}
