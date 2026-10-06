@@ -1,76 +1,131 @@
 # CallQuality AI
 
-Local-first VoIP call quality analysis and prediction platform built around SIP/SDP, RTP/RTCP, engineering-based quality assessment, explainable machine learning, and reproducible synthetic experiments.
+> **Local-first VoIP call quality analysis, diagnosis, and machine-learning prediction from PCAP captures.**
 
-CallQuality AI transforms packet-level VoIP evidence from PCAP captures into an interpretable quality report, combining protocol analysis, measurable network metrics, an engineering quality baseline, diagnosis rules, and a lightweight native ML inference layer.
+CallQuality AI turns low-level VoIP network evidence into an interpretable quality report by combining **SIP/SDP signaling, RTP/RTCP analysis, engineering-based quality assessment, diagnosis rules, and native machine learning**.
 
-> Built as both an engineering tool and a reproducible research project.
+The project is designed to run locally on a normal developer machine without paid AI APIs, cloud inference, GPU requirements, or a physical VoIP laboratory.
 
 ---
 
-## Overview
-
-VoIP quality problems are often easy to observe but difficult to explain.
-
-Symptoms such as packet loss, jitter, latency, reordering, unstable media, or one-way audio can originate from different layers of the communication path. Investigating them typically requires combining signaling information, media streams, RTP/RTCP statistics, and network-level observations.
-
-CallQuality AI is designed to reduce that analysis effort by turning low-level VoIP evidence into structured, understandable quality information.
-
-### Analysis Pipeline
+## What It Does
 
 ```text
 PCAP
   │
   ├── SIP / SDP
-  │
   ├── RTP
-  │
   └── RTCP
         │
         ▼
-Protocol & Media Analysis
+Protocol Analysis
         │
         ▼
 Feature Extraction
         │
-        ├── Engineering Quality Assessment
-        │
+        ├── Quality Engine
         ├── E-model / MOS Estimate
-        │
         ├── Diagnosis Engine
-        │
         └── Native ML Inference
                 │
                 ▼
-        Unified Call Quality Report
+        Unified Quality Report
                 │
                 ▼
         CLI / REST API / Web Dashboard
 ```
 
-## Key Features
+Instead of looking at isolated packet counters, CallQuality AI combines multiple sources of network evidence to answer two practical questions:
 
-### PCAP-Based VoIP Analysis
+**How degraded is the call?**
 
-Analyze classic `.pcap` captures locally without requiring a live production VoIP environment.
+**What network conditions are most likely contributing to that degradation?**
 
-The analyzer can work with:
+---
 
-- SIP
-- SDP
-- RTP
-- RTCP
-- IP
-- UDP
-- TCP where relevant to signaling
+## Highlights
 
-### RTP Analysis
+| Capability | Description |
+|---|---|
+| **PCAP Analysis** | Analyze classic `.pcap` captures locally |
+| **SIP / SDP** | Signaling and media-session reconstruction |
+| **RTP Analysis** | Loss, jitter, duplicates, reordering, packet statistics |
+| **RTCP Analysis** | Reports, jitter, loss, passive RTT, stream correlation |
+| **Quality Engine** | Explainable engineering-based quality scoring |
+| **E-model** | Estimated R-factor and MOS for the supported baseline |
+| **Diagnosis** | Rule-based degradation findings and contributing factors |
+| **Native ML** | Embedded Random Forest inference in Go |
+| **REST API** | Local HTTP API for programmatic analysis |
+| **Web Dashboard** | React + TypeScript control-room interface |
+| **Synthetic Research** | Reproducible impairment scenarios and dataset generation |
 
-Extract measurable RTP stream characteristics including:
+---
+
+## Research Snapshot
+
+The ML component was trained and evaluated on a controlled **synthetic V4 dataset** generated from reproducible VoIP/network impairment scenarios.
+
+### Dataset
+
+```text
+700 synthetic captures
+1,400 analyzed RTP stream records
+7 scenario families
+```
+
+Current scenario families include:
+
+```text
+clean
+loss
+jitter
+latency
+reorder
+duplicate
+combined
+```
+
+### Evaluation
+
+The current Random Forest experiment achieved:
+
+| Metric | Held-out Test |
+|---|---:|
+| Accuracy | **93.81%** |
+| Balanced Accuracy | **88.05%** |
+| Macro F1 | **90.25%** |
+
+The experiment used group-aware evaluation by `sample_id` to avoid placing related records from the same generated sample into both training and test partitions.
+
+The selected model was exported as a portable JSON artifact and verified against the native Go implementation.
+
+### Native Model Verification
+
+```text
+Model: Random Forest v1
+Trees: 700
+Transformed features: 29
+
+Independent parity checks:
+250 / 250 predictions matched
+Probability parity: verified
+Maximum probability difference: 0.0
+```
+
+These results describe the controlled synthetic experiment and **should not be interpreted as production-world accuracy or subjective speech-quality accuracy**.
+
+---
+
+## What the Analyzer Measures
+
+### RTP
+
+The RTP analysis layer can calculate:
 
 - Packet count
 - Unique packets
 - Duplicate packets
+- Expected packets
 - Lost packets
 - Packet-loss percentage
 - Sequence gaps
@@ -79,40 +134,58 @@ Extract measurable RTP stream characteristics including:
 - Packet-rate statistics
 - Media direction
 
-### RTCP Analysis
+### RTCP
 
-When RTCP evidence is available, the analyzer can extract and correlate:
+When RTCP evidence is available:
 
 - Receiver Reports
 - Sender Reports
 - Reported packet loss
 - Reported jitter
 - Passive RTT estimates
-- RTP / RTCP stream relationships
+- RTP / RTCP stream correlation
 
-### Engineering-Based Quality Assessment
+The analyzer distinguishes between **observed**, **calculated**, and **unavailable** values rather than inventing missing measurements.
 
-The project includes a non-ML quality baseline based on measurable network/media conditions.
+---
 
-Quality factors include:
+## Engineering Quality Assessment
 
-- Packet loss
-- Jitter
-- RTT
-- Packet reordering
-- Duplicate packets
+The non-ML quality engine evaluates measurable network/media conditions including:
 
-The quality engine produces an explainable score and quality level rather than treating ML as the only source of truth.
+```text
+Packet Loss
+Jitter
+RTT
+Packet Reordering
+Duplicate Packets
+```
 
-### E-Model Baseline
+It produces an explainable quality score and quality level.
 
-Where the required evidence is available, CallQuality AI also calculates a simplified E-model-based quality estimate for a narrowband G.711-oriented baseline.
+The engineering layer remains independent from the ML layer, allowing the project to compare deterministic network evidence with learned predictions.
 
-The resulting MOS value is an **estimated engineering metric**, not a substitute for subjective human listening tests.
+---
 
-### Diagnosis Engine
+## E-model / MOS
 
-The diagnosis layer combines measured evidence and engineering rules to surface probable degradation factors such as:
+Where the required information is available, CallQuality AI calculates a simplified E-model-based baseline for a narrowband G.711-oriented scenario.
+
+The resulting MOS is an **engineering estimate** based on the available evidence.
+
+It is not presented as equivalent to:
+
+- Subjective listening tests
+- Human-perception studies
+- Production carrier-grade voice-quality measurement
+
+---
+
+## Diagnosis Engine
+
+The diagnosis engine combines measured evidence with engineering rules to identify probable degradation conditions.
+
+Examples include:
 
 - High packet loss
 - High jitter
@@ -120,195 +193,131 @@ The diagnosis layer combines measured evidence and engineering rules to surface 
 - Packet reordering
 - Duplicate packets
 - Mixed degradation
+- RTP / RTCP disagreement
 - Insufficient evidence
-- RTP / RTCP metric disagreement
-- Unavailable measurements
+- Unavailable metrics
 
-The system distinguishes evidence from inference and does not treat a detected condition as an absolute physical root cause.
+The diagnosis layer is deliberately evidence-oriented.
 
-### Native Machine Learning
-
-CallQuality AI includes a lightweight CPU-friendly ML prediction layer.
-
-The research pipeline evaluates classical tabular models such as:
-
-- Logistic Regression
-- Random Forest
-- Gradient Boosting
-
-The selected model is exported as a versioned artifact and embedded into the Go application for local inference.
-
-The runtime application does not require:
-
-- Google Colab
-- A cloud AI service
-- A paid API
-- A GPU
-- An always-on external service
-
-The model and feature schema are versioned together so that research-time preprocessing can be reproduced consistently in the application.
+A finding is treated as an indication supported by the observed data, not as an absolute physical root-cause claim.
 
 ---
 
 ## Machine Learning
 
-The ML layer is designed as an experimental prediction component rather than a replacement for engineering analysis.
+The ML layer is an experimental prediction component built around lightweight classical models.
 
-### Research Objective
+Research candidates include:
 
-The central research question is:
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
 
-> Can lightweight machine-learning models use RTP/RTCP-derived network features to predict VoIP call-quality degradation and identify dominant contributing factors?
+The selected model is exported from the research environment and embedded into the Go application.
 
-The research pipeline focuses on:
+### Runtime Design
 
-- Quality classification
-- Feature analysis
-- Model comparison
-- Explainability
-- Reproducible experiments
-- Benchmarking
+```text
+Research
+   │
+   ▼
+Python / scikit-learn
+   │
+   ▼
+Versioned Model Artifact
+   │
+   ▼
+Native Go Inference
+   │
+   ▼
+Local Prediction
+```
 
-### Feature-Driven Prediction
+The final application does not require the training environment to be online.
 
-The model works with structured network/media features extracted by the Go analyzer rather than raw audio.
-
-This keeps the project:
-
-- Lightweight
-- Local-first
-- CPU-friendly
-- Reproducible
-- Independent of paid AI services
-
-The project does not depend on LLMs or generative AI for its core analysis.
+No external AI API is required for inference.
 
 ---
 
-## Reproducible Synthetic Dataset
+## Explainability
 
-Because the project is designed without requiring a physical VoIP laboratory, it includes controlled synthetic traffic generation for research and testing.
+The system exposes model-oriented evidence such as:
 
-Synthetic scenarios can vary factors such as:
+- Predicted quality class
+- Class probabilities
+- Feature importance
+- Dominant degradation factors
+
+The explanation describes what the model and observed metrics indicate; it does not claim certainty about the physical cause of a network problem.
+
+---
+
+## Synthetic Research Pipeline
+
+The repository contains a reproducible synthetic-data pipeline because the project does not depend on a physical VoIP laboratory.
+
+Controlled scenarios can vary:
 
 - Packet loss
 - Jitter
 - RTT
-- Burst loss
 - Packet reordering
+- Duplicate packets
+- Combined impairments
 - Packet rate
 - Codec
 - Call duration
 
-The synthetic pipeline is intended for controlled experimentation, reproducible testing, demonstrations, and dataset generation.
+The synthetic pipeline is used for:
 
-It is explicitly separated from real-world VoIP validation and is not presented as equivalent to production traffic.
+- Testing
+- Dataset generation
+- Model training
+- Research experiments
+- Demonstrations
+- Regression testing
 
-### Included Sample Captures
+Synthetic traffic is intentionally kept separate from real-world validation.
 
-The repository contains a small set of demonstration PCAPs representing different impairment conditions:
+---
+
+## Included Demo Captures
+
+Representative PCAP files are included for quick experimentation:
 
 ```text
 samples/
-├── demo/
-│   ├── synthetic-clean-v2.pcap
-│   ├── loss-003.pcap
-│   ├── jitter-003.pcap
-│   ├── latency-003.pcap
-│   ├── reorder-003.pcap
-│   ├── duplicate-003.pcap
-│   └── combined-003.pcap
-│
+└── demo/
+    ├── synthetic-clean-v2.pcap
+    ├── loss-003.pcap
+    ├── jitter-003.pcap
+    ├── latency-003.pcap
+    ├── reorder-003.pcap
+    ├── duplicate-003.pcap
+    └── combined-003.pcap
+```
+
+The larger reproducible dataset is stored separately:
+
+```text
+samples/
 └── synthetic-dataset-v4/
     ├── dataset.csv
-    └── manifest.csv
+    ├── manifest.csv
+    └── synthetic PCAP captures
 ```
-
-The larger synthetic dataset is retained for reproducible ML experiments, while the `demo` directory provides representative captures for quick evaluation.
-
----
-
-## CLI
-
-The primary application is written in Go.
-
-### Analyze a PCAP
-
-```bash
-callquality analyze call.pcap
-```
-
-### Export Structured Features
-
-```bash
-callquality export call.pcap --format csv --output features.csv
-```
-
-```bash
-callquality export call.pcap --format json --output features.json
-```
-
-### Run ML Prediction
-
-```bash
-callquality predict call.pcap
-```
-
-### Show Version
-
-```bash
-callquality version
-```
-
-The Go analyzer remains the source of truth for feature calculation and dataset export. The export schema is versioned to support reproducible research workflows.
-
----
-
-## Local HTTP API
-
-A local REST API is provided for the web dashboard and other local clients.
-
-### Endpoints
-
-```text
-GET  /api/v1/health
-GET  /api/v1/version
-POST /api/v1/analyze
-```
-
-### Start the API
-
-From the `app` directory:
-
-```bash
-go run ./cmd/callquality-api
-```
-
-The default API address is:
-
-```text
-http://127.0.0.1:8080
-```
-
-For the included web dashboard development setup, the API can be started on port `8090`:
-
-```bash
-go run ./cmd/callquality-api -listen 127.0.0.1:8090
-```
-
-The default maximum PCAP upload size is `64 MiB`.
 
 ---
 
 ## Web Dashboard
 
-CallQuality AI includes a React + TypeScript dashboard for interactive local analysis.
+CallQuality AI includes a local React dashboard for interactive analysis.
 
-The dashboard is designed around technical clarity and presents:
+The interface presents a technical control-room view of:
 
-- Capture summary
+- Capture status
 - Reconstructed calls
-- Quality score and level
+- Overall quality
 - RTP metrics
 - RTCP metrics
 - E-model / MOS estimate
@@ -316,13 +325,21 @@ The dashboard is designed around technical clarity and presents:
 - ML prediction
 - Prediction probabilities
 - Stream-level analysis
-- API / dashboard status
+- API connection state
 
-### Run the Dashboard
+### Run
 
-From the `web` directory:
+Start the Go API:
 
 ```bash
+cd app
+go run ./cmd/callquality-api -listen 127.0.0.1:8090
+```
+
+Then start the dashboard:
+
+```bash
+cd web
 npm install
 npm run dev
 ```
@@ -333,22 +350,99 @@ Open:
 http://127.0.0.1:5173
 ```
 
-The Vite development server proxies `/api` requests to the local Go API.
-
-For the current development setup:
+Development flow:
 
 ```text
-Web Dashboard
+React Dashboard
 127.0.0.1:5173
-
         │
         ▼
-
-Go API
+Vite /api Proxy
+        │
+        ▼
+Go Analysis API
 127.0.0.1:8090
+        │
+        ▼
+PCAP Analysis Pipeline
 ```
 
-The web layer is a local visualization interface; the core analysis remains implemented in Go.
+The default Go API address remains:
+
+```text
+127.0.0.1:8080
+```
+
+Port `8090` is used by the included dashboard development setup through the `-listen` option.
+
+---
+
+## CLI
+
+The Go CLI provides the main local analysis interface.
+
+### Analyze
+
+```bash
+callquality analyze call.pcap
+```
+
+### Export CSV
+
+```bash
+callquality export call.pcap --format csv --output features.csv
+```
+
+### Export JSON
+
+```bash
+callquality export call.pcap --format json --output features.json
+```
+
+### Predict
+
+```bash
+callquality predict call.pcap
+```
+
+### Version
+
+```bash
+callquality version
+```
+
+---
+
+## REST API
+
+The local HTTP API provides:
+
+```text
+GET  /api/v1/health
+GET  /api/v1/version
+POST /api/v1/analyze
+```
+
+Analyze a PCAP using:
+
+```text
+POST /api/v1/analyze
+Content-Type: multipart/form-data
+```
+
+The upload field is:
+
+```text
+file
+```
+
+Default maximum upload size:
+
+```text
+64 MiB
+```
+
+See [`docs/API.md`](docs/API.md) for the complete API contract.
 
 ---
 
@@ -400,7 +494,8 @@ CallQuality AI/
 │   └── ...
 │
 ├── PROJECT_SPEC.md
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -411,7 +506,7 @@ CallQuality AI/
 
 - Go
 - gopacket
-- Standard Go networking and HTTP packages
+- Go standard library
 
 ### VoIP / Network Analysis
 
@@ -427,7 +522,7 @@ CallQuality AI/
 - NumPy
 - pandas
 - scikit-learn
-- Exported Random Forest model for native inference
+- Random Forest
 
 ### Frontend
 
@@ -435,37 +530,20 @@ CallQuality AI/
 - TypeScript
 - Vite
 
-### Research Environment
+### Research
 
-- Google Colab for experimentation and model training
-
-Google Colab is used as a research environment rather than as a runtime dependency of the final application.
-
----
-
-## Design Principles
-
-The project is built around several engineering principles:
-
-- Correctness over unsupported assumptions
-- Reproducibility
-- Explainability
-- Local-first execution
-- Measurable results
-- Clear separation between evidence and inference
-- Minimal unnecessary dependencies
-- Strong automated testing
-- Clear technical documentation
-
-These principles are central to both the application and the research workflow.
+- Google Colab
+- Reproducible synthetic datasets
+- Versioned model artifacts
 
 ---
 
 ## Testing
 
-The project includes automated tests across the major Go components, including:
+The Go application contains automated tests covering the main analysis layers:
 
-- PCAP reading and decoding
+- PCAP reading
+- Packet decoding
 - SIP parsing
 - SDP parsing
 - RTP parsing
@@ -475,61 +553,70 @@ The project includes automated tests across the major Go components, including:
 - RTP / RTCP correlation
 - Media metrics
 - Feature extraction
-- Quality assessment
+- Quality scoring
 - E-model calculations
 - Diagnosis rules
 - Call analysis
 - API behavior
 - Dataset generation
-- ML inference
+- Native ML inference
 
-The project is intended to keep protocol analysis and quality calculations independently testable while maintaining an integrated end-to-end pipeline.
+The project is structured so that individual protocol and analysis components can be tested independently while still supporting an integrated end-to-end pipeline.
+
+---
+
+## Design Principles
+
+CallQuality AI follows these core principles:
+
+**Correctness**
+
+Measurements should come from available protocol evidence rather than assumptions.
+
+**Reproducibility**
+
+Synthetic experiments, dataset generation, model artifacts, and evaluation conditions should be repeatable.
+
+**Explainability**
+
+The system should expose why a quality result or prediction was produced.
+
+**Local-First Execution**
+
+The final application should work without depending on external AI services.
+
+**Separation of Evidence and Inference**
+
+Measured network data, deterministic engineering calculations, and ML predictions should remain distinguishable.
+
+**Minimal Dependencies**
+
+Libraries should be evaluated for compatibility and adopted only when they provide clear value.
 
 ---
 
 ## Limitations
 
-CallQuality AI is an engineering and research project, not a production carrier-grade voice-quality measurement system.
+CallQuality AI is an engineering and research project rather than a production carrier-grade monitoring platform.
 
 Important limitations include:
 
-- Synthetic datasets do not represent the full variability of real-world VoIP traffic.
-- Network metrics do not perfectly capture subjective human perception.
-- E-model / MOS outputs are estimates based on available network/media evidence.
-- The current system does not replace subjective listening tests.
-- ML predictions depend on the data and experimental conditions used during training.
-- Real-world generalization requires validation against larger and more diverse production captures.
-- Some metrics may be unavailable when the required protocol evidence is not present.
+- Synthetic traffic does not capture the complete variability of real-world VoIP networks.
+- Network metrics do not perfectly represent human speech perception.
+- E-model / MOS values are estimates based on available evidence.
+- ML results depend on the dataset and experimental conditions.
+- Real-world generalization requires validation against larger and more diverse captures.
+- Some measurements are unavailable when the required protocol evidence is absent.
 
-The project intentionally avoids unsupported claims about model or quality-estimation performance.
-
----
-
-## Non-Goals
-
-The MVP does not require:
-
-- Live SIP server integration
-- Live RTP packet capture
-- Asterisk deployment
-- Physical IP phones
-- Cloud infrastructure
-- Large language models
-- Paid AI APIs
-- GPU training
-- Speech recognition
-- Automatic call recording
-- Production carrier integration
-
-These can be considered future extensions rather than requirements for the current architecture.
+The project intentionally avoids unsupported claims about production performance.
 
 ---
 
 ## Documentation
 
-Detailed technical documentation is available in:
+Detailed technical documentation:
 
-- [`docs/API.md`](docs/API.md) — Local HTTP API
+- [`docs/API.md`](docs/API.md) — HTTP API
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — System architecture
 - [`docs/DATASET.md`](docs/DATASET.md) — Dataset and synthetic-data workflow
 - [`docs/ML_INFERENCE.md`](docs/ML_INFERENCE.md) — Native ML inference
@@ -538,9 +625,13 @@ Detailed technical documentation is available in:
 
 ---
 
-## Project Goal
+## Research Direction
 
-CallQuality AI is designed to demonstrate a complete engineering and research pipeline:
+The project explores the following question:
+
+> Can lightweight machine-learning models use RTP/RTCP-derived network features to predict VoIP call-quality degradation and identify dominant contributing factors?
+
+The broader research pipeline is:
 
 ```text
 Network Evidence
@@ -564,10 +655,37 @@ Benchmarking
 Reproducible Research
 ```
 
-The project is intended to function as both:
+---
 
-1. A practical local VoIP analysis tool
-2. A reproducible experimental research project
+## Current Scope
+
+The current implementation focuses on:
+
+```text
+PCAP-based analysis
+RTP / RTCP metrics
+SIP / SDP processing
+Engineering quality scoring
+E-model baseline
+Rule-based diagnosis
+Native ML inference
+REST API
+React dashboard
+Synthetic dataset generation
+```
+
+Future extensions may include live capture, additional codecs and traffic conditions, broader real-world validation, benchmarking, and expanded simulation capabilities.
+
+---
+
+## Project Goal
+
+CallQuality AI is intended to demonstrate both:
+
+1. **A practical local VoIP analysis tool**
+2. **A reproducible experimental research project**
+
+The goal is to connect network engineering, protocol analysis, data science, and software engineering in one coherent system.
 
 ---
 
