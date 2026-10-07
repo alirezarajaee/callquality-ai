@@ -60,6 +60,11 @@ Instead of looking at isolated packet counters, CallQuality AI combines multiple
 | **Synthetic Research** | Reproducible impairment scenarios and dataset generation |
 
 ---
+## Dashboard Preview
+
+![CallQuality AI Dashboard](docs/images/dashboard-overview.png)
+
+---
 
 ## Research Snapshot
 
